@@ -1,0 +1,1003 @@
+user_id,user_role,book_id,book_title,author,publisher,book_category,shelf_location,borrow_date,due_date,return_date,reservation_status,overdue_status,return_status,days_overdue,fine_amount_lkr
+1,student,1,Effective Study Skills,Dr. Helen Morris,Northern Books,non-fiction,NF-545,13/03/2023,27/03/2023,29/03/2023,Yes,Yes,Overdue,2,40
+2,student,2,Creative Drawing,Nisha Raj,Northern Books,art,ART-952,02/04/2022,16/04/2022,07/04/2022,Yes,No,On time,0,0
+3,faculty,3,Modern Asia,Robert Adams,Pearl Academic Press,history,HIS-203,06/06/2023,06/07/2023,08/06/2023,Yes,No,On time,0,0
+4,student,4,Digital Society,Kevin Brown,EduWorld Press,non-fiction,NF-376,05/10/2022,19/10/2022,24/10/2022,No,Yes,Overdue,5,100
+5,student,5,The Last Letter,Meera Collins,Northern Books,fiction,FIC-732,04/07/2020,18/07/2020,09/07/2020,No,No,On time,0,0
+6,student,6,Principles of Design,Emily Hart,Campus Publications,art,ART-485,28/10/2023,11/11/2023,15/11/2023,No,Yes,Overdue,4,80
+7,staff,7,Earth and Space Science,L. Anderson,EduWorld Press,science,SCI-458,11/04/2023,02/05/2023,30/04/2023,No,Yes,Overdue,6,120
+8,staff,5,The Last Letter,Meera Collins,Pearl Academic Press,fiction,FIC-697,21/07/2023,11/08/2023,09/08/2023,No,Yes,Overdue,13,260
+9,student,4,Digital Society,Kevin Brown,Pearl Academic Press,non-fiction,NF-221,01/09/2022,15/09/2022,16/09/2022,Yes,Yes,Overdue,1,20
+10,student,8,Basics of Biology,Sarah Green,Global Learning House,science,SCI-796,10/07/2023,24/07/2023,16/07/2023,No,No,On time,0,0
+11,faculty,9,Ancient Civilizations,Priya Menon,Campus Publications,history,HIS-706,19/08/2022,18/09/2022,05/09/2022,Yes,Yes,Overdue,11,220
+12,faculty,3,Modern Asia,Robert Adams,Pearl Academic Press,history,HIS-948,03/05/2022,02/06/2022,10/05/2022,No,No,On time,0,0
+13,faculty,8,Basics of Biology,Sarah Green,Northern Books,science,SCI-571,14/12/2022,13/01/2023,19/12/2022,Yes,No,On time,0,0
+14,staff,10,Learning to Research,Maria Stone,Global Learning House,non-fiction,NF-848,09/01/2022,30/01/2022,14/01/2022,No,No,On time,0,0
+15,staff,8,Basics of Biology,Sarah Green,Campus Publications,science,SCI-281,10/06/2020,01/07/2020,19/06/2020,No,Yes,Overdue,12,240
+16,faculty,11,Leadership Basics,A. Jayawardena,EduWorld Press,non-fiction,NF-537,04/07/2022,03/08/2022,21/07/2022,Yes,Yes,Overdue,13,260
+17,faculty,12,Art Through Time,Victor Silva,Northern Books,art,ART-641,27/07/2020,26/08/2020,08/08/2020,No,Yes,Overdue,15,300
+18,student,13,Midnight Pages,R. K. Fernando,Global Learning House,fiction,FIC-211,16/01/2024,30/01/2024,18/01/2024,No,No,On time,0,0
+19,faculty,14,The Silent River,Anita Rao,Global Learning House,fiction,FIC-535,03/01/2025,02/02/2025,19/01/2025,No,Yes,Overdue,8,160
+20,faculty,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-610,11/11/2023,11/12/2023,27/11/2023,No,Yes,Overdue,16,320
+21,staff,16,World History Overview,James Carter,Northern Books,history,HIS-675,24/07/2023,14/08/2023,27/07/2023,Yes,No,On time,0,0
+22,student,12,Art Through Time,Victor Silva,Northern Books,art,ART-176,10/09/2021,24/09/2021,16/09/2021,Yes,No,On time,0,0
+23,faculty,10,Learning to Research,Maria Stone,Global Learning House,non-fiction,NF-568,25/10/2021,24/11/2021,11/11/2021,Yes,Yes,Overdue,10,200
+24,faculty,10,Learning to Research,Maria Stone,Pearl Academic Press,non-fiction,NF-143,27/02/2020,28/03/2020,09/03/2020,Yes,Yes,Overdue,11,220
+25,student,6,Principles of Design,Emily Hart,Northern Books,art,ART-680,28/03/2025,11/04/2025,29/03/2025,No,No,On time,0,0
+26,faculty,15,Introduction to Physics,Dr. Alan Reed,Global Learning House,science,SCI-325,03/08/2023,02/09/2023,21/08/2023,Yes,Yes,Overdue,9,180
+27,student,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-982,06/07/2021,20/07/2021,09/07/2021,No,No,On time,0,0
+28,faculty,13,Midnight Pages,R. K. Fernando,Pearl Academic Press,fiction,FIC-686,06/10/2020,05/11/2020,15/10/2020,Yes,Yes,Overdue,8,160
+29,staff,1,Effective Study Skills,Dr. Helen Morris,Campus Publications,non-fiction,NF-965,05/08/2020,26/08/2020,07/08/2020,No,No,On time,0,0
+30,faculty,9,Ancient Civilizations,Priya Menon,Global Learning House,history,HIS-151,04/02/2024,05/03/2024,18/02/2024,Yes,Yes,Overdue,12,240
+31,staff,14,The Silent River,Anita Rao,EduWorld Press,fiction,FIC-795,29/12/2024,19/01/2025,30/12/2024,Yes,No,On time,0,0
+32,staff,1,Effective Study Skills,Dr. Helen Morris,Campus Publications,non-fiction,NF-910,03/07/2020,24/07/2020,19/07/2020,Yes,Yes,Overdue,16,320
+33,faculty,18,Computer Science Fundamentals,M. Kumar,EduWorld Press,science,SCI-829,13/09/2024,13/10/2024,25/09/2024,No,Yes,Overdue,9,180
+34,faculty,6,Principles of Design,Emily Hart,Pearl Academic Press,art,ART-535,11/06/2021,11/07/2021,26/06/2021,No,Yes,Overdue,19,380
+35,faculty,4,Digital Society,Kevin Brown,Pearl Academic Press,non-fiction,NF-611,17/03/2022,16/04/2022,05/04/2022,Yes,Yes,Overdue,13,260
+36,student,17,Chemistry in Daily Life,Prof. David Lee,Campus Publications,science,SCI-642,30/07/2021,13/08/2021,06/08/2021,No,No,On time,0,0
+37,student,8,Basics of Biology,Sarah Green,Global Learning House,science,SCI-471,29/04/2020,13/05/2020,18/05/2020,Yes,Yes,Overdue,5,100
+38,staff,4,Digital Society,Kevin Brown,Campus Publications,non-fiction,NF-481,14/12/2021,04/01/2022,20/12/2021,Yes,No,On time,0,0
+39,student,6,Principles of Design,Emily Hart,Campus Publications,art,ART-130,02/11/2024,16/11/2024,12/11/2024,Yes,Yes,Overdue,10,200
+40,faculty,12,Art Through Time,Victor Silva,Campus Publications,art,ART-896,24/11/2022,24/12/2022,01/12/2022,Yes,No,On time,0,0
+41,student,5,The Last Letter,Meera Collins,Global Learning House,fiction,FIC-397,19/01/2024,02/02/2024,26/01/2024,Yes,No,On time,0,0
+42,staff,9,Ancient Civilizations,Priya Menon,Campus Publications,history,HIS-611,29/01/2022,19/02/2022,15/02/2022,No,Yes,Overdue,17,340
+43,student,16,World History Overview,James Carter,Campus Publications,history,HIS-590,10/06/2020,24/06/2020,11/06/2020,Yes,No,On time,0,0
+44,student,9,Ancient Civilizations,Priya Menon,EduWorld Press,history,HIS-336,31/01/2020,14/02/2020,12/02/2020,No,Yes,Overdue,18,360
+45,staff,19,Communication Skills,Peter Clarke,Global Learning House,non-fiction,NF-754,02/01/2025,23/01/2025,12/01/2025,Yes,Yes,Overdue,14,280
+46,student,9,Ancient Civilizations,Priya Menon,EduWorld Press,history,HIS-226,27/12/2022,10/01/2023,14/01/2023,Yes,Yes,Overdue,4,80
+47,student,20,Modern Art Guide,Laura King,Global Learning House,art,ART-138,27/01/2021,10/02/2021,02/02/2021,No,No,On time,0,0
+48,faculty,10,Learning to Research,Maria Stone,EduWorld Press,non-fiction,NF-723,12/04/2023,12/05/2023,22/04/2023,No,Yes,Overdue,11,220
+49,staff,15,Introduction to Physics,Dr. Alan Reed,Global Learning House,science,SCI-990,31/05/2023,21/06/2023,11/06/2023,No,Yes,Overdue,2,40
+50,staff,7,Earth and Space Science,L. Anderson,Northern Books,science,SCI-373,20/01/2020,10/02/2020,02/02/2020,Yes,Yes,Overdue,6,120
+51,faculty,21,Island Dreams,S. Wijesinghe,Northern Books,fiction,FIC-753,01/07/2023,31/07/2023,10/07/2023,Yes,Yes,Overdue,19,380
+52,student,20,Modern Art Guide,Laura King,Global Learning House,art,ART-548,04/12/2023,18/12/2023,13/12/2023,No,Yes,Overdue,1,20
+53,student,20,Modern Art Guide,Laura King,Global Learning House,art,ART-493,14/03/2022,28/03/2022,02/04/2022,Yes,Yes,Overdue,5,100
+54,staff,6,Principles of Design,Emily Hart,Global Learning House,art,ART-315,28/03/2024,18/04/2024,04/04/2024,Yes,No,On time,0,0
+55,faculty,11,Leadership Basics,A. Jayawardena,Campus Publications,non-fiction,NF-577,02/10/2020,01/11/2020,09/10/2020,Yes,No,On time,0,0
+56,staff,7,Earth and Space Science,L. Anderson,Northern Books,science,SCI-243,17/11/2022,08/12/2022,07/12/2022,Yes,Yes,Overdue,3,60
+57,staff,22,Cultural Heritage,Latha Raman,Campus Publications,history,HIS-724,04/01/2021,25/01/2021,08/01/2021,Yes,No,On time,0,0
+58,student,12,Art Through Time,Victor Silva,Global Learning House,art,ART-531,26/03/2022,09/04/2022,14/04/2022,No,Yes,Overdue,5,100
+59,student,23,History of Sri Lanka,D. Senanayake,Northern Books,history,HIS-127,21/01/2024,04/02/2024,08/02/2024,No,Yes,Overdue,4,80
+60,staff,13,Midnight Pages,R. K. Fernando,Pearl Academic Press,fiction,FIC-411,24/09/2024,15/10/2024,07/10/2024,No,Yes,Overdue,16,320
+61,faculty,5,The Last Letter,Meera Collins,Campus Publications,fiction,FIC-312,27/07/2020,26/08/2020,07/08/2020,No,Yes,Overdue,2,40
+62,staff,4,Digital Society,Kevin Brown,Northern Books,non-fiction,NF-511,24/06/2021,15/07/2021,14/07/2021,No,Yes,Overdue,13,260
+63,staff,13,Midnight Pages,R. K. Fernando,EduWorld Press,fiction,FIC-881,27/08/2022,17/09/2022,03/09/2022,Yes,No,On time,0,0
+64,staff,20,Modern Art Guide,Laura King,EduWorld Press,art,ART-238,15/06/2022,06/07/2022,16/06/2022,Yes,No,On time,0,0
+65,student,3,Modern Asia,Robert Adams,Campus Publications,history,HIS-323,29/06/2022,13/07/2022,30/06/2022,No,No,On time,0,0
+66,faculty,24,Color and Composition,A. Silva,Global Learning House,art,ART-944,30/10/2023,29/11/2023,04/11/2023,Yes,No,On time,0,0
+67,staff,3,Modern Asia,Robert Adams,Northern Books,history,HIS-618,14/12/2020,04/01/2021,18/12/2020,Yes,No,On time,0,0
+68,staff,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-357,08/06/2020,29/06/2020,17/06/2020,No,Yes,Overdue,18,360
+69,student,15,Introduction to Physics,Dr. Alan Reed,EduWorld Press,science,SCI-320,08/11/2024,22/11/2024,21/11/2024,Yes,Yes,Overdue,2,40
+70,faculty,4,Digital Society,Kevin Brown,Global Learning House,non-fiction,NF-411,29/05/2023,28/06/2023,10/06/2023,No,Yes,Overdue,12,240
+71,student,6,Principles of Design,Emily Hart,EduWorld Press,art,ART-435,28/08/2022,11/09/2022,12/09/2022,No,Yes,Overdue,1,20
+72,student,16,World History Overview,James Carter,Global Learning House,history,HIS-975,03/01/2025,17/01/2025,21/01/2025,No,Yes,Overdue,4,80
+73,student,19,Communication Skills,Peter Clarke,Northern Books,non-fiction,NF-999,13/05/2021,27/05/2021,27/05/2021,Yes,Yes,Overdue,5,100
+74,staff,20,Modern Art Guide,Laura King,Northern Books,art,ART-473,07/10/2023,28/10/2023,12/10/2023,No,No,On time,0,0
+75,faculty,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-946,27/10/2024,26/11/2024,29/10/2024,Yes,No,On time,0,0
+76,student,24,Color and Composition,A. Silva,Northern Books,art,ART-824,09/05/2023,23/05/2023,17/05/2023,Yes,Yes,Overdue,16,320
+77,student,19,Communication Skills,Peter Clarke,Campus Publications,non-fiction,NF-574,04/03/2022,18/03/2022,22/03/2022,No,Yes,Overdue,4,80
+78,student,10,Learning to Research,Maria Stone,Campus Publications,non-fiction,NF-743,29/01/2020,12/02/2020,05/02/2020,No,No,On time,0,0
+79,student,5,The Last Letter,Meera Collins,Global Learning House,fiction,FIC-152,11/11/2022,25/11/2022,27/11/2022,Yes,Yes,Overdue,2,40
+80,staff,25,Beyond the Gate,N. Perera,Northern Books,fiction,FIC-534,19/01/2023,09/02/2023,30/01/2023,No,Yes,Overdue,13,260
+81,staff,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-340,04/08/2023,25/08/2023,06/08/2023,No,No,On time,0,0
+82,faculty,11,Leadership Basics,A. Jayawardena,Northern Books,non-fiction,NF-732,11/01/2022,10/02/2022,20/01/2022,No,Yes,Overdue,6,120
+83,faculty,6,Principles of Design,Emily Hart,Northern Books,art,ART-430,20/04/2023,20/05/2023,10/05/2023,Yes,Yes,Overdue,20,400
+84,faculty,2,Creative Drawing,Nisha Raj,Pearl Academic Press,art,ART-762,12/11/2020,12/12/2020,13/11/2020,Yes,No,On time,0,0
+85,student,16,World History Overview,James Carter,Northern Books,history,HIS-165,06/11/2021,20/11/2021,26/11/2021,No,Yes,Overdue,6,120
+86,student,18,Computer Science Fundamentals,M. Kumar,EduWorld Press,science,SCI-549,02/07/2023,16/07/2023,18/07/2023,No,Yes,Overdue,2,40
+87,staff,3,Modern Asia,Robert Adams,EduWorld Press,history,HIS-273,31/01/2022,21/02/2022,09/02/2022,No,Yes,Overdue,17,340
+88,staff,13,Midnight Pages,R. K. Fernando,Global Learning House,fiction,FIC-671,21/11/2022,12/12/2022,05/12/2022,No,Yes,Overdue,17,340
+89,student,8,Basics of Biology,Sarah Green,Global Learning House,science,SCI-736,09/08/2023,23/08/2023,22/08/2023,Yes,Yes,Overdue,17,340
+90,student,25,Beyond the Gate,N. Perera,Campus Publications,fiction,FIC-699,11/07/2021,25/07/2021,18/07/2021,No,No,On time,0,0
+91,student,3,Modern Asia,Robert Adams,Pearl Academic Press,history,HIS-423,28/02/2020,13/03/2020,09/03/2020,Yes,Yes,Overdue,10,200
+92,faculty,21,Island Dreams,S. Wijesinghe,EduWorld Press,fiction,FIC-443,12/06/2023,12/07/2023,17/06/2023,Yes,No,On time,0,0
+93,staff,2,Creative Drawing,Nisha Raj,Global Learning House,art,ART-477,04/09/2020,25/09/2020,18/09/2020,No,Yes,Overdue,13,260
+94,faculty,24,Color and Composition,A. Silva,Campus Publications,art,ART-809,05/11/2024,05/12/2024,06/11/2024,Yes,No,On time,0,0
+95,staff,7,Earth and Space Science,L. Anderson,EduWorld Press,science,SCI-193,10/05/2021,31/05/2021,15/05/2021,Yes,No,On time,0,0
+96,faculty,25,Beyond the Gate,N. Perera,EduWorld Press,fiction,FIC-159,13/09/2023,13/10/2023,24/09/2023,Yes,Yes,Overdue,9,180
+97,staff,6,Principles of Design,Emily Hart,EduWorld Press,art,ART-675,30/09/2024,21/10/2024,13/10/2024,Yes,Yes,Overdue,17,340
+98,student,16,World History Overview,James Carter,Northern Books,history,HIS-305,22/09/2024,06/10/2024,30/09/2024,Yes,Yes,Overdue,5,100
+99,student,11,Leadership Basics,A. Jayawardena,EduWorld Press,non-fiction,NF-492,26/05/2020,09/06/2020,29/05/2020,Yes,No,On time,0,0
+100,faculty,5,The Last Letter,Meera Collins,Pearl Academic Press,fiction,FIC-657,13/04/2024,13/05/2024,02/05/2024,Yes,Yes,Overdue,5,100
+101,student,1,Effective Study Skills,Dr. Helen Morris,Northern Books,non-fiction,NF-985,06/07/2021,20/07/2021,16/07/2021,No,Yes,Overdue,5,100
+102,student,11,Leadership Basics,A. Jayawardena,Northern Books,non-fiction,NF-257,24/02/2021,10/03/2021,26/02/2021,Yes,No,On time,0,0
+103,staff,16,World History Overview,James Carter,Global Learning House,history,HIS-510,27/10/2023,17/11/2023,16/11/2023,No,Yes,Overdue,17,340
+104,faculty,19,Communication Skills,Peter Clarke,EduWorld Press,non-fiction,NF-964,04/01/2023,03/02/2023,15/01/2023,Yes,Yes,Overdue,9,180
+105,student,10,Learning to Research,Maria Stone,EduWorld Press,non-fiction,NF-393,07/09/2021,21/09/2021,21/09/2021,Yes,Yes,Overdue,7,140
+106,staff,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-912,24/02/2023,17/03/2023,12/03/2023,Yes,Yes,Overdue,16,320
+107,student,22,Cultural Heritage,Latha Raman,Global Learning House,history,HIS-954,06/04/2024,20/04/2024,15/04/2024,Yes,Yes,Overdue,14,280
+108,faculty,22,Cultural Heritage,Latha Raman,Campus Publications,history,HIS-639,24/03/2023,23/04/2023,01/04/2023,Yes,Yes,Overdue,18,360
+109,faculty,8,Basics of Biology,Sarah Green,Pearl Academic Press,science,SCI-371,30/10/2020,29/11/2020,17/11/2020,No,Yes,Overdue,10,200
+110,student,18,Computer Science Fundamentals,M. Kumar,EduWorld Press,science,SCI-829,05/04/2024,19/04/2024,17/04/2024,Yes,Yes,Overdue,4,80
+111,staff,25,Beyond the Gate,N. Perera,Campus Publications,fiction,FIC-854,31/07/2022,21/08/2022,13/08/2022,No,Yes,Overdue,12,240
+112,student,9,Ancient Civilizations,Priya Menon,Campus Publications,history,HIS-676,10/05/2024,24/05/2024,26/05/2024,No,Yes,Overdue,2,40
+113,faculty,23,History of Sri Lanka,D. Senanayake,Global Learning House,history,HIS-967,14/09/2022,14/10/2022,22/09/2022,No,Yes,Overdue,7,140
+114,student,16,World History Overview,James Carter,EduWorld Press,history,HIS-425,22/02/2020,07/03/2020,10/03/2020,No,Yes,Overdue,3,60
+115,faculty,3,Modern Asia,Robert Adams,EduWorld Press,history,HIS-878,18/09/2021,18/10/2021,02/10/2021,No,Yes,Overdue,8,160
+116,faculty,17,Chemistry in Daily Life,Prof. David Lee,EduWorld Press,science,SCI-202,15/10/2020,14/11/2020,29/10/2020,Yes,Yes,Overdue,2,40
+117,faculty,22,Cultural Heritage,Latha Raman,Campus Publications,history,HIS-919,16/07/2022,15/08/2022,01/08/2022,No,Yes,Overdue,9,180
+118,student,2,Creative Drawing,Nisha Raj,Campus Publications,art,ART-302,10/03/2022,24/03/2022,14/03/2022,Yes,No,On time,0,0
+119,staff,17,Chemistry in Daily Life,Prof. David Lee,Campus Publications,science,SCI-112,07/04/2022,28/04/2022,18/04/2022,Yes,Yes,Overdue,20,400
+120,student,20,Modern Art Guide,Laura King,Northern Books,art,ART-503,04/10/2023,18/10/2023,07/10/2023,Yes,No,On time,0,0
+121,staff,20,Modern Art Guide,Laura King,EduWorld Press,art,ART-228,08/07/2024,29/07/2024,09/07/2024,Yes,No,On time,0,0
+122,student,22,Cultural Heritage,Latha Raman,Global Learning House,history,HIS-884,04/02/2023,18/02/2023,10/02/2023,No,No,On time,0,0
+123,staff,1,Effective Study Skills,Dr. Helen Morris,EduWorld Press,non-fiction,NF-395,21/10/2021,11/11/2021,09/11/2021,Yes,Yes,Overdue,11,220
+124,student,2,Creative Drawing,Nisha Raj,Campus Publications,art,ART-717,23/07/2021,06/08/2021,02/08/2021,Yes,Yes,Overdue,11,220
+125,staff,13,Midnight Pages,R. K. Fernando,Northern Books,fiction,FIC-416,02/02/2022,23/02/2022,10/02/2022,No,Yes,Overdue,8,160
+126,faculty,12,Art Through Time,Victor Silva,Pearl Academic Press,art,ART-641,13/08/2023,12/09/2023,14/08/2023,No,No,On time,0,0
+127,faculty,13,Midnight Pages,R. K. Fernando,Pearl Academic Press,fiction,FIC-146,26/06/2023,26/07/2023,01/07/2023,No,No,On time,0,0
+128,staff,1,Effective Study Skills,Dr. Helen Morris,EduWorld Press,non-fiction,NF-900,17/07/2023,07/08/2023,22/07/2023,Yes,No,On time,0,0
+129,faculty,18,Computer Science Fundamentals,M. Kumar,EduWorld Press,science,SCI-554,23/03/2021,22/04/2021,03/04/2021,No,Yes,Overdue,4,80
+130,faculty,3,Modern Asia,Robert Adams,Northern Books,history,HIS-428,08/04/2021,08/05/2021,18/04/2021,No,Yes,Overdue,11,220
+131,staff,21,Island Dreams,S. Wijesinghe,Northern Books,fiction,FIC-608,19/11/2024,10/12/2024,21/11/2024,Yes,No,On time,0,0
+132,staff,3,Modern Asia,Robert Adams,Global Learning House,history,HIS-583,11/12/2022,01/01/2023,19/12/2022,No,Yes,Overdue,15,300
+133,faculty,4,Digital Society,Kevin Brown,Pearl Academic Press,non-fiction,NF-806,21/11/2024,21/12/2024,09/12/2024,No,Yes,Overdue,12,240
+134,faculty,1,Effective Study Skills,Dr. Helen Morris,EduWorld Press,non-fiction,NF-610,16/04/2022,16/05/2022,24/04/2022,No,Yes,Overdue,12,240
+135,student,7,Earth and Space Science,L. Anderson,Global Learning House,science,SCI-948,23/03/2025,06/04/2025,12/04/2025,No,Yes,Overdue,6,120
+136,student,5,The Last Letter,Meera Collins,Campus Publications,fiction,FIC-267,27/12/2021,10/01/2022,12/01/2022,No,Yes,Overdue,2,40
+137,student,17,Chemistry in Daily Life,Prof. David Lee,Global Learning House,science,SCI-707,23/07/2023,06/08/2023,29/07/2023,No,No,On time,0,0
+138,student,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-640,08/06/2021,22/06/2021,22/06/2021,Yes,Yes,Overdue,16,320
+139,student,1,Effective Study Skills,Dr. Helen Morris,Campus Publications,non-fiction,NF-620,12/11/2023,26/11/2023,25/11/2023,Yes,Yes,Overdue,18,360
+140,faculty,11,Leadership Basics,A. Jayawardena,Campus Publications,non-fiction,NF-147,09/06/2022,09/07/2022,26/06/2022,Yes,Yes,Overdue,2,40
+141,student,13,Midnight Pages,R. K. Fernando,EduWorld Press,fiction,FIC-451,15/10/2024,29/10/2024,23/10/2024,No,Yes,Overdue,18,360
+142,faculty,14,The Silent River,Anita Rao,Global Learning House,fiction,FIC-285,14/08/2022,13/09/2022,02/09/2022,No,Yes,Overdue,13,260
+143,student,21,Island Dreams,S. Wijesinghe,EduWorld Press,fiction,FIC-983,24/09/2020,08/10/2020,13/10/2020,No,Yes,Overdue,5,100
+144,faculty,7,Earth and Space Science,L. Anderson,Global Learning House,science,SCI-893,24/11/2024,24/12/2024,04/12/2024,Yes,Yes,Overdue,8,160
+145,staff,16,World History Overview,James Carter,EduWorld Press,history,HIS-205,05/02/2022,26/02/2022,24/02/2022,Yes,Yes,Overdue,2,40
+146,staff,19,Communication Skills,Peter Clarke,Pearl Academic Press,non-fiction,NF-269,29/07/2024,19/08/2024,17/08/2024,Yes,Yes,Overdue,7,140
+147,faculty,4,Digital Society,Kevin Brown,Pearl Academic Press,non-fiction,NF-896,04/02/2025,06/03/2025,17/02/2025,Yes,Yes,Overdue,2,40
+148,staff,21,Island Dreams,S. Wijesinghe,EduWorld Press,fiction,FIC-818,27/01/2025,17/02/2025,05/02/2025,Yes,Yes,Overdue,8,160
+149,staff,25,Beyond the Gate,N. Perera,EduWorld Press,fiction,FIC-189,02/10/2023,23/10/2023,12/10/2023,Yes,Yes,Overdue,4,80
+150,staff,25,Beyond the Gate,N. Perera,Northern Books,fiction,FIC-614,17/09/2023,08/10/2023,18/09/2023,Yes,No,On time,0,0
+151,staff,8,Basics of Biology,Sarah Green,Northern Books,science,SCI-861,06/05/2023,27/05/2023,12/05/2023,No,No,On time,0,0
+152,staff,13,Midnight Pages,R. K. Fernando,Pearl Academic Press,fiction,FIC-971,23/12/2023,13/01/2024,04/01/2024,Yes,Yes,Overdue,20,400
+153,staff,18,Computer Science Fundamentals,M. Kumar,EduWorld Press,science,SCI-244,07/10/2024,28/10/2024,24/10/2024,Yes,Yes,Overdue,9,180
+154,student,24,Color and Composition,A. Silva,Campus Publications,art,ART-349,03/03/2023,17/03/2023,17/03/2023,Yes,Yes,Overdue,14,280
+155,faculty,7,Earth and Space Science,L. Anderson,Campus Publications,science,SCI-443,02/11/2021,02/12/2021,14/11/2021,No,Yes,Overdue,19,380
+156,student,13,Midnight Pages,R. K. Fernando,Northern Books,fiction,FIC-911,15/04/2021,29/04/2021,22/04/2021,Yes,No,On time,0,0
+157,staff,12,Art Through Time,Victor Silva,EduWorld Press,art,ART-811,18/07/2022,08/08/2022,01/08/2022,No,Yes,Overdue,15,300
+158,staff,12,Art Through Time,Victor Silva,Northern Books,art,ART-156,28/03/2023,18/04/2023,06/04/2023,Yes,Yes,Overdue,17,340
+159,student,24,Color and Composition,A. Silva,Global Learning House,art,ART-244,14/05/2023,28/05/2023,20/05/2023,Yes,No,On time,0,0
+160,faculty,2,Creative Drawing,Nisha Raj,Pearl Academic Press,art,ART-132,04/08/2024,03/09/2024,13/08/2024,Yes,Yes,Overdue,6,120
+161,faculty,13,Midnight Pages,R. K. Fernando,Global Learning House,fiction,FIC-751,26/12/2023,25/01/2024,29/12/2023,Yes,No,On time,0,0
+162,student,19,Communication Skills,Peter Clarke,Campus Publications,non-fiction,NF-699,17/09/2024,01/10/2024,22/09/2024,No,No,On time,0,0
+163,student,23,History of Sri Lanka,D. Senanayake,Pearl Academic Press,history,HIS-857,11/03/2022,25/03/2022,12/03/2022,No,No,On time,0,0
+164,student,15,Introduction to Physics,Dr. Alan Reed,Northern Books,science,SCI-430,23/06/2024,07/07/2024,01/07/2024,Yes,Yes,Overdue,11,220
+165,faculty,24,Color and Composition,A. Silva,Pearl Academic Press,art,ART-989,04/11/2023,04/12/2023,06/11/2023,Yes,No,On time,0,0
+166,student,19,Communication Skills,Peter Clarke,EduWorld Press,non-fiction,NF-459,14/03/2020,28/03/2020,17/03/2020,Yes,No,On time,0,0
+167,staff,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-897,06/08/2023,27/08/2023,22/08/2023,Yes,Yes,Overdue,14,280
+168,staff,18,Computer Science Fundamentals,M. Kumar,Campus Publications,science,SCI-374,02/03/2024,23/03/2024,06/03/2024,No,No,On time,0,0
+169,faculty,15,Introduction to Physics,Dr. Alan Reed,Pearl Academic Press,science,SCI-505,30/12/2024,29/01/2025,15/01/2025,No,Yes,Overdue,6,120
+170,student,18,Computer Science Fundamentals,M. Kumar,Pearl Academic Press,science,SCI-224,10/03/2020,24/03/2020,16/03/2020,No,No,On time,0,0
+171,faculty,4,Digital Society,Kevin Brown,Campus Publications,non-fiction,NF-246,16/02/2023,18/03/2023,07/03/2023,No,Yes,Overdue,1,20
+172,staff,6,Principles of Design,Emily Hart,EduWorld Press,art,ART-565,09/12/2024,30/12/2024,15/12/2024,Yes,No,On time,0,0
+173,faculty,15,Introduction to Physics,Dr. Alan Reed,Global Learning House,science,SCI-915,15/01/2021,14/02/2021,24/01/2021,Yes,Yes,Overdue,16,320
+174,student,13,Midnight Pages,R. K. Fernando,Global Learning House,fiction,FIC-521,28/12/2023,11/01/2024,16/01/2024,Yes,Yes,Overdue,5,100
+175,staff,14,The Silent River,Anita Rao,Global Learning House,fiction,FIC-940,04/07/2024,25/07/2024,21/07/2024,Yes,Yes,Overdue,12,240
+176,student,20,Modern Art Guide,Laura King,Global Learning House,art,ART-503,26/08/2024,09/09/2024,12/09/2024,Yes,Yes,Overdue,3,60
+177,faculty,12,Art Through Time,Victor Silva,Northern Books,art,ART-636,16/07/2020,15/08/2020,05/08/2020,Yes,Yes,Overdue,6,120
+178,staff,8,Basics of Biology,Sarah Green,Northern Books,science,SCI-936,09/07/2021,30/07/2021,16/07/2021,No,No,On time,0,0
+179,student,18,Computer Science Fundamentals,M. Kumar,Northern Books,science,SCI-109,15/11/2020,29/11/2020,29/11/2020,No,Yes,Overdue,4,80
+180,faculty,8,Basics of Biology,Sarah Green,Northern Books,science,SCI-536,03/06/2023,03/07/2023,21/06/2023,No,Yes,Overdue,2,40
+181,student,16,World History Overview,James Carter,Campus Publications,history,HIS-290,18/05/2022,01/06/2022,24/05/2022,No,No,On time,0,0
+182,staff,10,Learning to Research,Maria Stone,Pearl Academic Press,non-fiction,NF-568,04/01/2024,25/01/2024,17/01/2024,Yes,Yes,Overdue,11,220
+183,staff,10,Learning to Research,Maria Stone,Global Learning House,non-fiction,NF-323,02/11/2021,23/11/2021,21/11/2021,Yes,Yes,Overdue,15,300
+184,faculty,18,Computer Science Fundamentals,M. Kumar,Pearl Academic Press,science,SCI-624,14/05/2020,13/06/2020,30/05/2020,No,Yes,Overdue,18,360
+185,student,19,Communication Skills,Peter Clarke,Pearl Academic Press,non-fiction,NF-124,10/05/2024,24/05/2024,17/05/2024,Yes,No,On time,0,0
+186,staff,12,Art Through Time,Victor Silva,EduWorld Press,art,ART-241,02/03/2023,23/03/2023,03/03/2023,Yes,No,On time,0,0
+187,staff,3,Modern Asia,Robert Adams,Campus Publications,history,HIS-333,14/09/2021,05/10/2021,25/09/2021,Yes,Yes,Overdue,7,140
+188,student,21,Island Dreams,S. Wijesinghe,Northern Books,fiction,FIC-758,08/01/2024,22/01/2024,10/01/2024,No,No,On time,0,0
+189,faculty,21,Island Dreams,S. Wijesinghe,Campus Publications,fiction,FIC-148,24/03/2023,23/04/2023,29/03/2023,No,No,On time,0,0
+190,faculty,3,Modern Asia,Robert Adams,Pearl Academic Press,history,HIS-733,16/02/2021,18/03/2021,19/02/2021,Yes,No,On time,0,0
+191,student,23,History of Sri Lanka,D. Senanayake,Campus Publications,history,HIS-562,11/04/2023,25/04/2023,24/04/2023,No,Yes,Overdue,1,20
+192,student,15,Introduction to Physics,Dr. Alan Reed,EduWorld Press,science,SCI-650,12/12/2023,26/12/2023,28/12/2023,Yes,Yes,Overdue,2,40
+193,student,3,Modern Asia,Robert Adams,Northern Books,history,HIS-273,05/02/2022,19/02/2022,20/02/2022,Yes,Yes,Overdue,1,20
+194,student,12,Art Through Time,Victor Silva,EduWorld Press,art,ART-401,30/06/2022,14/07/2022,08/07/2022,No,Yes,Overdue,16,320
+195,student,16,World History Overview,James Carter,Global Learning House,history,HIS-875,21/10/2022,04/11/2022,04/11/2022,No,Yes,Overdue,20,400
+196,staff,8,Basics of Biology,Sarah Green,Global Learning House,science,SCI-761,22/08/2023,12/09/2023,09/09/2023,No,Yes,Overdue,18,360
+197,student,20,Modern Art Guide,Laura King,EduWorld Press,art,ART-448,17/10/2022,31/10/2022,19/10/2022,No,No,On time,0,0
+198,student,3,Modern Asia,Robert Adams,EduWorld Press,history,HIS-243,12/09/2022,26/09/2022,16/09/2022,Yes,No,On time,0,0
+199,staff,3,Modern Asia,Robert Adams,Campus Publications,history,HIS-448,04/05/2023,25/05/2023,12/05/2023,No,Yes,Overdue,12,240
+200,student,6,Principles of Design,Emily Hart,Campus Publications,art,ART-770,24/10/2022,07/11/2022,31/10/2022,Yes,No,On time,0,0
+201,staff,8,Basics of Biology,Sarah Green,Pearl Academic Press,science,SCI-691,11/08/2024,01/09/2024,24/08/2024,Yes,Yes,Overdue,10,200
+202,staff,12,Art Through Time,Victor Silva,Global Learning House,art,ART-446,08/06/2020,29/06/2020,21/06/2020,No,Yes,Overdue,11,220
+203,student,1,Effective Study Skills,Dr. Helen Morris,Pearl Academic Press,non-fiction,NF-595,30/10/2022,13/11/2022,08/11/2022,Yes,Yes,Overdue,15,300
+204,staff,11,Leadership Basics,A. Jayawardena,Pearl Academic Press,non-fiction,NF-757,07/01/2025,28/01/2025,16/01/2025,Yes,Yes,Overdue,10,200
+205,student,10,Learning to Research,Maria Stone,Global Learning House,non-fiction,NF-808,15/01/2023,29/01/2023,31/01/2023,No,Yes,Overdue,2,40
+206,faculty,13,Midnight Pages,R. K. Fernando,EduWorld Press,fiction,FIC-236,08/06/2021,08/07/2021,19/06/2021,No,Yes,Overdue,19,380
+207,faculty,18,Computer Science Fundamentals,M. Kumar,Global Learning House,science,SCI-139,12/12/2023,11/01/2024,29/12/2023,No,Yes,Overdue,2,40
+208,staff,12,Art Through Time,Victor Silva,Northern Books,art,ART-521,19/03/2025,09/04/2025,04/04/2025,Yes,Yes,Overdue,15,300
+209,staff,21,Island Dreams,S. Wijesinghe,Global Learning House,fiction,FIC-738,18/06/2022,09/07/2022,21/06/2022,Yes,No,On time,0,0
+210,staff,4,Digital Society,Kevin Brown,Northern Books,non-fiction,NF-316,21/05/2020,11/06/2020,02/06/2020,No,Yes,Overdue,2,40
+211,student,8,Basics of Biology,Sarah Green,Northern Books,science,SCI-481,26/05/2022,09/06/2022,06/06/2022,No,Yes,Overdue,6,120
+212,student,4,Digital Society,Kevin Brown,Pearl Academic Press,non-fiction,NF-401,02/12/2020,16/12/2020,06/12/2020,Yes,No,On time,0,0
+213,faculty,14,The Silent River,Anita Rao,Northern Books,fiction,FIC-275,25/09/2021,25/10/2021,06/10/2021,No,Yes,Overdue,14,280
+214,student,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-606,31/03/2022,14/04/2022,06/04/2022,Yes,No,On time,0,0
+215,student,4,Digital Society,Kevin Brown,Campus Publications,non-fiction,NF-601,21/07/2024,04/08/2024,01/08/2024,No,Yes,Overdue,8,160
+216,faculty,18,Computer Science Fundamentals,M. Kumar,Pearl Academic Press,science,SCI-614,10/03/2021,09/04/2021,20/03/2021,Yes,Yes,Overdue,2,40
+217,student,10,Learning to Research,Maria Stone,Campus Publications,non-fiction,NF-873,01/12/2022,15/12/2022,04/12/2022,Yes,No,On time,0,0
+218,faculty,21,Island Dreams,S. Wijesinghe,Global Learning House,fiction,FIC-598,15/07/2021,14/08/2021,19/07/2021,Yes,No,On time,0,0
+219,student,14,The Silent River,Anita Rao,Campus Publications,fiction,FIC-425,23/12/2021,06/01/2022,04/01/2022,Yes,Yes,Overdue,20,400
+220,faculty,4,Digital Society,Kevin Brown,Campus Publications,non-fiction,NF-281,26/09/2024,26/10/2024,27/09/2024,Yes,No,On time,0,0
+221,faculty,17,Chemistry in Daily Life,Prof. David Lee,Northern Books,science,SCI-602,07/06/2024,07/07/2024,12/06/2024,Yes,No,On time,0,0
+222,staff,18,Computer Science Fundamentals,M. Kumar,Northern Books,science,SCI-594,24/01/2025,14/02/2025,05/02/2025,No,Yes,Overdue,13,260
+223,faculty,20,Modern Art Guide,Laura King,Northern Books,art,ART-403,20/10/2023,19/11/2023,01/11/2023,Yes,Yes,Overdue,15,300
+224,student,24,Color and Composition,A. Silva,Pearl Academic Press,art,ART-859,23/09/2020,07/10/2020,02/10/2020,Yes,Yes,Overdue,10,200
+225,student,14,The Silent River,Anita Rao,Campus Publications,fiction,FIC-345,26/05/2023,09/06/2023,05/06/2023,Yes,Yes,Overdue,1,20
+226,staff,4,Digital Society,Kevin Brown,Campus Publications,non-fiction,NF-736,02/07/2021,23/07/2021,11/07/2021,No,Yes,Overdue,15,300
+227,faculty,17,Chemistry in Daily Life,Prof. David Lee,Northern Books,science,SCI-357,14/02/2021,16/03/2021,05/03/2021,Yes,Yes,Overdue,8,160
+228,staff,12,Art Through Time,Victor Silva,Global Learning House,art,ART-836,18/07/2022,08/08/2022,04/08/2022,No,Yes,Overdue,14,280
+229,student,7,Earth and Space Science,L. Anderson,EduWorld Press,science,SCI-318,27/08/2024,10/09/2024,14/09/2024,No,Yes,Overdue,4,80
+230,faculty,25,Beyond the Gate,N. Perera,Global Learning House,fiction,FIC-234,07/09/2024,07/10/2024,15/09/2024,No,Yes,Overdue,13,260
+231,student,22,Cultural Heritage,Latha Raman,Northern Books,history,HIS-164,01/01/2025,15/01/2025,02/01/2025,No,No,On time,0,0
+232,staff,19,Communication Skills,Peter Clarke,Northern Books,non-fiction,NF-399,09/08/2022,30/08/2022,21/08/2022,Yes,Yes,Overdue,16,320
+233,faculty,8,Basics of Biology,Sarah Green,Pearl Academic Press,science,SCI-256,20/10/2021,19/11/2021,28/10/2021,Yes,Yes,Overdue,13,260
+234,student,9,Ancient Civilizations,Priya Menon,Campus Publications,history,HIS-581,12/06/2024,26/06/2024,17/06/2024,Yes,No,On time,0,0
+235,staff,4,Digital Society,Kevin Brown,Global Learning House,non-fiction,NF-306,29/09/2022,20/10/2022,05/10/2022,Yes,No,On time,0,0
+236,faculty,20,Modern Art Guide,Laura King,Global Learning House,art,ART-373,01/06/2022,01/07/2022,04/06/2022,No,No,On time,0,0
+237,faculty,19,Communication Skills,Peter Clarke,Campus Publications,non-fiction,NF-939,10/03/2025,09/04/2025,26/03/2025,No,Yes,Overdue,17,340
+238,student,1,Effective Study Skills,Dr. Helen Morris,Campus Publications,non-fiction,NF-350,06/07/2023,20/07/2023,07/07/2023,No,No,On time,0,0
+239,faculty,2,Creative Drawing,Nisha Raj,Global Learning House,art,ART-692,13/05/2024,12/06/2024,30/05/2024,No,Yes,Overdue,11,220
+240,staff,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-662,28/04/2022,19/05/2022,10/05/2022,Yes,Yes,Overdue,18,360
+241,student,23,History of Sri Lanka,D. Senanayake,Campus Publications,history,HIS-237,10/10/2022,24/10/2022,18/10/2022,No,Yes,Overdue,4,80
+242,staff,18,Computer Science Fundamentals,M. Kumar,Northern Books,science,SCI-884,25/10/2023,15/11/2023,29/10/2023,Yes,No,On time,0,0
+243,faculty,16,World History Overview,James Carter,Northern Books,history,HIS-575,17/05/2021,16/06/2021,22/05/2021,No,No,On time,0,0
+244,faculty,25,Beyond the Gate,N. Perera,Campus Publications,fiction,FIC-649,21/04/2022,21/05/2022,05/05/2022,No,Yes,Overdue,3,60
+245,staff,16,World History Overview,James Carter,Northern Books,history,HIS-285,25/05/2024,15/06/2024,14/06/2024,Yes,Yes,Overdue,2,40
+246,student,9,Ancient Civilizations,Priya Menon,Northern Books,history,HIS-916,08/01/2022,22/01/2022,20/01/2022,No,Yes,Overdue,10,200
+247,staff,7,Earth and Space Science,L. Anderson,Northern Books,science,SCI-233,07/10/2021,28/10/2021,09/10/2021,No,No,On time,0,0
+248,faculty,3,Modern Asia,Robert Adams,Northern Books,history,HIS-518,04/12/2021,03/01/2022,22/12/2021,Yes,Yes,Overdue,2,40
+249,faculty,24,Color and Composition,A. Silva,Campus Publications,art,ART-284,02/01/2021,01/02/2021,03/01/2021,Yes,No,On time,0,0
+250,faculty,7,Earth and Space Science,L. Anderson,EduWorld Press,science,SCI-738,10/06/2021,10/07/2021,24/06/2021,Yes,Yes,Overdue,18,360
+251,faculty,16,World History Overview,James Carter,Pearl Academic Press,history,HIS-775,07/05/2023,06/06/2023,22/05/2023,Yes,Yes,Overdue,16,320
+252,staff,11,Leadership Basics,A. Jayawardena,Pearl Academic Press,non-fiction,NF-447,21/01/2021,11/02/2021,30/01/2021,Yes,Yes,Overdue,19,380
+253,student,22,Cultural Heritage,Latha Raman,Pearl Academic Press,history,HIS-309,25/08/2022,08/09/2022,06/09/2022,Yes,Yes,Overdue,11,220
+254,student,6,Principles of Design,Emily Hart,Pearl Academic Press,art,ART-755,02/03/2025,16/03/2025,10/03/2025,No,Yes,Overdue,3,60
+255,faculty,9,Ancient Civilizations,Priya Menon,Northern Books,history,HIS-586,03/09/2020,03/10/2020,21/09/2020,No,Yes,Overdue,3,60
+256,student,1,Effective Study Skills,Dr. Helen Morris,Pearl Academic Press,non-fiction,NF-730,27/05/2020,10/06/2020,16/06/2020,No,Yes,Overdue,6,120
+257,student,15,Introduction to Physics,Dr. Alan Reed,Northern Books,science,SCI-740,17/07/2024,31/07/2024,22/07/2024,Yes,No,On time,0,0
+258,faculty,9,Ancient Civilizations,Priya Menon,Northern Books,history,HIS-896,03/06/2020,03/07/2020,19/06/2020,No,Yes,Overdue,6,120
+259,staff,14,The Silent River,Anita Rao,EduWorld Press,fiction,FIC-220,13/10/2021,03/11/2021,18/10/2021,Yes,No,On time,0,0
+260,student,12,Art Through Time,Victor Silva,Northern Books,art,ART-256,17/04/2021,01/05/2021,21/04/2021,Yes,No,On time,0,0
+261,student,24,Color and Composition,A. Silva,Northern Books,art,ART-539,24/10/2023,07/11/2023,11/11/2023,Yes,Yes,Overdue,4,80
+262,faculty,2,Creative Drawing,Nisha Raj,Global Learning House,art,ART-872,18/05/2021,17/06/2021,05/06/2021,Yes,Yes,Overdue,2,40
+263,staff,2,Creative Drawing,Nisha Raj,Campus Publications,art,ART-167,12/03/2023,02/04/2023,18/03/2023,Yes,No,On time,0,0
+264,staff,25,Beyond the Gate,N. Perera,Global Learning House,fiction,FIC-119,15/11/2020,06/12/2020,16/11/2020,Yes,No,On time,0,0
+265,staff,2,Creative Drawing,Nisha Raj,Northern Books,art,ART-867,24/08/2022,14/09/2022,01/09/2022,Yes,Yes,Overdue,17,340
+266,staff,12,Art Through Time,Victor Silva,Global Learning House,art,ART-741,03/09/2024,24/09/2024,14/09/2024,No,Yes,Overdue,6,120
+267,staff,22,Cultural Heritage,Latha Raman,Pearl Academic Press,history,HIS-984,22/08/2021,12/09/2021,07/09/2021,No,Yes,Overdue,13,260
+268,student,15,Introduction to Physics,Dr. Alan Reed,Pearl Academic Press,science,SCI-465,28/01/2020,11/02/2020,08/02/2020,No,Yes,Overdue,17,340
+269,staff,5,The Last Letter,Meera Collins,Campus Publications,fiction,FIC-642,27/06/2021,18/07/2021,14/07/2021,Yes,Yes,Overdue,5,100
+270,staff,13,Midnight Pages,R. K. Fernando,EduWorld Press,fiction,FIC-431,23/12/2020,13/01/2021,08/01/2021,No,Yes,Overdue,10,200
+271,faculty,20,Modern Art Guide,Laura King,Pearl Academic Press,art,ART-253,14/12/2022,13/01/2023,01/01/2023,No,Yes,Overdue,4,80
+272,student,10,Learning to Research,Maria Stone,Campus Publications,non-fiction,NF-883,30/10/2022,13/11/2022,05/11/2022,Yes,No,On time,0,0
+273,staff,16,World History Overview,James Carter,Campus Publications,history,HIS-795,24/07/2020,14/08/2020,25/07/2020,Yes,No,On time,0,0
+274,staff,1,Effective Study Skills,Dr. Helen Morris,Campus Publications,non-fiction,NF-370,24/11/2020,15/12/2020,26/11/2020,No,No,On time,0,0
+275,student,4,Digital Society,Kevin Brown,Northern Books,non-fiction,NF-446,27/10/2024,10/11/2024,10/11/2024,Yes,Yes,Overdue,11,220
+276,student,22,Cultural Heritage,Latha Raman,Campus Publications,history,HIS-449,24/03/2025,07/04/2025,05/04/2025,No,Yes,Overdue,15,300
+277,staff,5,The Last Letter,Meera Collins,EduWorld Press,fiction,FIC-777,31/12/2020,21/01/2021,12/01/2021,Yes,Yes,Overdue,4,80
+278,staff,18,Computer Science Fundamentals,M. Kumar,Global Learning House,science,SCI-424,06/08/2022,27/08/2022,11/08/2022,Yes,No,On time,0,0
+279,staff,3,Modern Asia,Robert Adams,Northern Books,history,HIS-263,18/09/2021,09/10/2021,26/09/2021,Yes,Yes,Overdue,16,320
+280,faculty,3,Modern Asia,Robert Adams,Pearl Academic Press,history,HIS-603,11/11/2021,11/12/2021,01/12/2021,No,Yes,Overdue,14,280
+281,student,14,The Silent River,Anita Rao,EduWorld Press,fiction,FIC-675,28/06/2020,12/07/2020,14/07/2020,Yes,Yes,Overdue,2,40
+282,staff,13,Midnight Pages,R. K. Fernando,Global Learning House,fiction,FIC-211,10/12/2022,31/12/2022,29/12/2022,No,Yes,Overdue,4,80
+283,student,1,Effective Study Skills,Dr. Helen Morris,Pearl Academic Press,non-fiction,NF-220,29/11/2022,13/12/2022,14/12/2022,Yes,Yes,Overdue,1,20
+284,faculty,19,Communication Skills,Peter Clarke,EduWorld Press,non-fiction,NF-844,24/02/2024,25/03/2024,01/03/2024,Yes,No,On time,0,0
+285,staff,2,Creative Drawing,Nisha Raj,Campus Publications,art,ART-357,20/06/2020,11/07/2020,02/07/2020,No,Yes,Overdue,19,380
+286,staff,6,Principles of Design,Emily Hart,Campus Publications,art,ART-530,29/01/2025,19/02/2025,10/02/2025,Yes,Yes,Overdue,12,240
+287,student,14,The Silent River,Anita Rao,Northern Books,fiction,FIC-875,30/11/2023,14/12/2023,04/12/2023,No,No,On time,0,0
+288,student,12,Art Through Time,Victor Silva,Global Learning House,art,ART-766,14/10/2020,28/10/2020,22/10/2020,No,Yes,Overdue,5,100
+289,student,22,Cultural Heritage,Latha Raman,Global Learning House,history,HIS-204,29/01/2020,12/02/2020,06/02/2020,No,Yes,Overdue,1,20
+290,student,11,Leadership Basics,A. Jayawardena,Pearl Academic Press,non-fiction,NF-692,05/07/2020,19/07/2020,21/07/2020,Yes,Yes,Overdue,2,40
+291,faculty,21,Island Dreams,S. Wijesinghe,Global Learning House,fiction,FIC-338,17/11/2022,17/12/2022,02/12/2022,No,Yes,Overdue,14,280
+292,staff,1,Effective Study Skills,Dr. Helen Morris,Pearl Academic Press,non-fiction,NF-725,27/11/2022,18/12/2022,28/11/2022,No,No,On time,0,0
+293,staff,5,The Last Letter,Meera Collins,Campus Publications,fiction,FIC-797,28/11/2024,19/12/2024,03/12/2024,No,No,On time,0,0
+294,faculty,3,Modern Asia,Robert Adams,Global Learning House,history,HIS-528,19/01/2021,18/02/2021,06/02/2021,Yes,Yes,Overdue,4,80
+295,student,12,Art Through Time,Victor Silva,Northern Books,art,ART-416,20/10/2022,03/11/2022,21/10/2022,Yes,No,On time,0,0
+296,staff,6,Principles of Design,Emily Hart,Pearl Academic Press,art,ART-520,08/01/2025,29/01/2025,13/01/2025,No,No,On time,0,0
+297,faculty,3,Modern Asia,Robert Adams,EduWorld Press,history,HIS-103,04/12/2020,03/01/2021,05/12/2020,Yes,No,On time,0,0
+298,student,12,Art Through Time,Victor Silva,Pearl Academic Press,art,ART-441,15/10/2023,29/10/2023,31/10/2023,No,Yes,Overdue,2,40
+299,staff,3,Modern Asia,Robert Adams,Campus Publications,history,HIS-598,29/07/2023,19/08/2023,02/08/2023,No,No,On time,0,0
+300,student,22,Cultural Heritage,Latha Raman,Campus Publications,history,HIS-329,30/03/2020,13/04/2020,01/04/2020,Yes,No,On time,0,0
+301,student,11,Leadership Basics,A. Jayawardena,EduWorld Press,non-fiction,NF-127,15/07/2022,29/07/2022,17/07/2022,Yes,No,On time,0,0
+302,staff,15,Introduction to Physics,Dr. Alan Reed,Global Learning House,science,SCI-670,16/04/2024,07/05/2024,04/05/2024,Yes,Yes,Overdue,10,200
+303,student,3,Modern Asia,Robert Adams,Northern Books,history,HIS-533,22/04/2023,06/05/2023,02/05/2023,Yes,Yes,Overdue,5,100
+304,student,20,Modern Art Guide,Laura King,Pearl Academic Press,art,ART-948,13/11/2020,27/11/2020,01/12/2020,No,Yes,Overdue,4,80
+305,student,24,Color and Composition,A. Silva,Pearl Academic Press,art,ART-129,17/03/2020,31/03/2020,03/04/2020,No,Yes,Overdue,3,60
+306,faculty,7,Earth and Space Science,L. Anderson,EduWorld Press,science,SCI-518,06/05/2022,05/06/2022,16/05/2022,Yes,Yes,Overdue,20,400
+307,staff,17,Chemistry in Daily Life,Prof. David Lee,EduWorld Press,science,SCI-337,19/03/2024,09/04/2024,05/04/2024,Yes,Yes,Overdue,14,280
+308,student,22,Cultural Heritage,Latha Raman,Pearl Academic Press,history,HIS-239,05/08/2021,19/08/2021,11/08/2021,Yes,No,On time,0,0
+309,faculty,12,Art Through Time,Victor Silva,Pearl Academic Press,art,ART-211,12/08/2021,11/09/2021,22/08/2021,No,Yes,Overdue,5,100
+310,student,16,World History Overview,James Carter,Pearl Academic Press,history,HIS-530,10/12/2020,24/12/2020,29/12/2020,No,Yes,Overdue,5,100
+311,faculty,14,The Silent River,Anita Rao,EduWorld Press,fiction,FIC-825,17/09/2024,17/10/2024,22/09/2024,No,No,On time,0,0
+312,staff,22,Cultural Heritage,Latha Raman,Global Learning House,history,HIS-174,18/08/2022,08/09/2022,27/08/2022,Yes,Yes,Overdue,6,120
+313,staff,10,Learning to Research,Maria Stone,Global Learning House,non-fiction,NF-128,11/07/2021,01/08/2021,20/07/2021,No,Yes,Overdue,17,340
+314,student,4,Digital Society,Kevin Brown,Northern Books,non-fiction,NF-486,04/08/2022,18/08/2022,24/08/2022,No,Yes,Overdue,6,120
+315,staff,6,Principles of Design,Emily Hart,Campus Publications,art,ART-410,24/07/2023,14/08/2023,30/07/2023,Yes,No,On time,0,0
+316,staff,21,Island Dreams,S. Wijesinghe,Pearl Academic Press,fiction,FIC-223,08/08/2024,29/08/2024,27/08/2024,No,Yes,Overdue,19,380
+317,student,22,Cultural Heritage,Latha Raman,Pearl Academic Press,history,HIS-734,23/06/2022,07/07/2022,25/06/2022,Yes,No,On time,0,0
+318,staff,6,Principles of Design,Emily Hart,Northern Books,art,ART-725,29/02/2020,21/03/2020,09/03/2020,Yes,Yes,Overdue,5,100
+319,staff,2,Creative Drawing,Nisha Raj,Northern Books,art,ART-427,15/06/2023,06/07/2023,23/06/2023,No,Yes,Overdue,10,200
+320,staff,12,Art Through Time,Victor Silva,Global Learning House,art,ART-626,20/08/2023,10/09/2023,06/09/2023,Yes,Yes,Overdue,5,100
+321,faculty,15,Introduction to Physics,Dr. Alan Reed,Global Learning House,science,SCI-115,15/03/2025,14/04/2025,18/03/2025,No,No,On time,0,0
+322,staff,22,Cultural Heritage,Latha Raman,Campus Publications,history,HIS-119,13/04/2025,04/05/2025,22/04/2025,No,Yes,Overdue,17,340
+323,faculty,21,Island Dreams,S. Wijesinghe,Pearl Academic Press,fiction,FIC-968,18/07/2023,17/08/2023,01/08/2023,No,Yes,Overdue,15,300
+324,faculty,8,Basics of Biology,Sarah Green,Campus Publications,science,SCI-276,09/11/2023,09/12/2023,23/11/2023,No,Yes,Overdue,12,240
+325,staff,24,Color and Composition,A. Silva,Northern Books,art,ART-649,20/07/2023,10/08/2023,30/07/2023,No,Yes,Overdue,11,220
+326,student,10,Learning to Research,Maria Stone,EduWorld Press,non-fiction,NF-398,01/11/2024,15/11/2024,12/11/2024,Yes,Yes,Overdue,8,160
+327,student,17,Chemistry in Daily Life,Prof. David Lee,EduWorld Press,science,SCI-172,06/11/2023,20/11/2023,10/11/2023,Yes,No,On time,0,0
+328,faculty,16,World History Overview,James Carter,Global Learning House,history,HIS-960,10/06/2023,10/07/2023,19/06/2023,Yes,Yes,Overdue,3,60
+329,faculty,8,Basics of Biology,Sarah Green,Global Learning House,science,SCI-956,28/01/2024,27/02/2024,17/02/2024,No,Yes,Overdue,4,80
+330,student,6,Principles of Design,Emily Hart,Northern Books,art,ART-470,23/02/2023,09/03/2023,12/03/2023,Yes,Yes,Overdue,3,60
+331,faculty,16,World History Overview,James Carter,Global Learning House,history,HIS-755,21/08/2023,20/09/2023,27/08/2023,Yes,No,On time,0,0
+332,student,20,Modern Art Guide,Laura King,Campus Publications,art,ART-638,02/09/2022,16/09/2022,17/09/2022,No,Yes,Overdue,1,20
+333,faculty,6,Principles of Design,Emily Hart,EduWorld Press,art,ART-910,09/10/2020,08/11/2020,18/10/2020,No,Yes,Overdue,6,120
+334,staff,6,Principles of Design,Emily Hart,Northern Books,art,ART-800,11/10/2021,01/11/2021,17/10/2021,Yes,No,On time,0,0
+335,staff,1,Effective Study Skills,Dr. Helen Morris,EduWorld Press,non-fiction,NF-935,30/06/2022,21/07/2022,11/07/2022,No,Yes,Overdue,13,260
+336,student,20,Modern Art Guide,Laura King,Northern Books,art,ART-318,11/02/2025,25/02/2025,20/02/2025,No,Yes,Overdue,9,180
+337,faculty,7,Earth and Space Science,L. Anderson,Campus Publications,science,SCI-713,30/08/2023,29/09/2023,13/09/2023,No,Yes,Overdue,8,160
+338,faculty,1,Effective Study Skills,Dr. Helen Morris,Global Learning House,non-fiction,NF-820,20/02/2023,22/03/2023,24/02/2023,No,No,On time,0,0
+339,faculty,5,The Last Letter,Meera Collins,Campus Publications,fiction,FIC-922,29/05/2020,28/06/2020,11/06/2020,Yes,Yes,Overdue,17,340
+340,faculty,2,Creative Drawing,Nisha Raj,EduWorld Press,art,ART-417,11/04/2023,11/05/2023,30/04/2023,No,Yes,Overdue,6,120
+341,faculty,21,Island Dreams,S. Wijesinghe,Campus Publications,fiction,FIC-888,03/01/2022,02/02/2022,20/01/2022,Yes,Yes,Overdue,7,140
+342,student,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-127,16/01/2021,30/01/2021,21/01/2021,Yes,No,On time,0,0
+343,student,1,Effective Study Skills,Dr. Helen Morris,EduWorld Press,non-fiction,NF-535,29/11/2022,13/12/2022,03/12/2022,Yes,No,On time,0,0
+344,faculty,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-707,10/03/2024,09/04/2024,28/03/2024,No,Yes,Overdue,5,100
+345,faculty,18,Computer Science Fundamentals,M. Kumar,EduWorld Press,science,SCI-804,30/06/2022,30/07/2022,18/07/2022,Yes,Yes,Overdue,8,160
+346,student,8,Basics of Biology,Sarah Green,Northern Books,science,SCI-166,21/07/2021,04/08/2021,07/08/2021,No,Yes,Overdue,3,60
+347,staff,8,Basics of Biology,Sarah Green,Campus Publications,science,SCI-646,04/01/2025,25/01/2025,09/01/2025,No,No,On time,0,0
+348,student,23,History of Sri Lanka,D. Senanayake,Campus Publications,history,HIS-627,08/11/2021,22/11/2021,15/11/2021,No,No,On time,0,0
+349,staff,3,Modern Asia,Robert Adams,Northern Books,history,HIS-213,13/02/2023,06/03/2023,24/02/2023,Yes,Yes,Overdue,20,400
+350,staff,14,The Silent River,Anita Rao,Campus Publications,fiction,FIC-425,21/12/2020,11/01/2021,25/12/2020,Yes,No,On time,0,0
+351,staff,3,Modern Asia,Robert Adams,Campus Publications,history,HIS-688,30/11/2022,21/12/2022,09/12/2022,No,Yes,Overdue,1,20
+352,student,18,Computer Science Fundamentals,M. Kumar,Global Learning House,science,SCI-944,26/09/2022,10/10/2022,11/10/2022,Yes,Yes,Overdue,1,20
+353,staff,17,Chemistry in Daily Life,Prof. David Lee,Campus Publications,science,SCI-947,17/05/2021,07/06/2021,06/06/2021,Yes,Yes,Overdue,20,400
+354,faculty,20,Modern Art Guide,Laura King,EduWorld Press,art,ART-393,05/07/2020,04/08/2020,24/07/2020,Yes,Yes,Overdue,2,40
+355,faculty,15,Introduction to Physics,Dr. Alan Reed,Northern Books,science,SCI-340,15/12/2021,14/01/2022,18/12/2021,No,No,On time,0,0
+356,staff,21,Island Dreams,S. Wijesinghe,Northern Books,fiction,FIC-268,27/02/2024,19/03/2024,03/03/2024,Yes,No,On time,0,0
+357,student,24,Color and Composition,A. Silva,Global Learning House,art,ART-704,29/06/2020,13/07/2020,05/07/2020,Yes,No,On time,0,0
+358,faculty,18,Computer Science Fundamentals,M. Kumar,Campus Publications,science,SCI-894,11/05/2021,10/06/2021,30/05/2021,Yes,Yes,Overdue,7,140
+359,staff,11,Leadership Basics,A. Jayawardena,Campus Publications,non-fiction,NF-682,22/05/2023,12/06/2023,25/05/2023,Yes,No,On time,0,0
+360,faculty,8,Basics of Biology,Sarah Green,Global Learning House,science,SCI-521,02/02/2025,04/03/2025,15/02/2025,Yes,Yes,Overdue,10,200
+361,student,24,Color and Composition,A. Silva,Pearl Academic Press,art,ART-929,10/10/2020,24/10/2020,14/10/2020,No,No,On time,0,0
+362,staff,19,Communication Skills,Peter Clarke,Global Learning House,non-fiction,NF-719,08/04/2024,29/04/2024,28/04/2024,Yes,Yes,Overdue,8,160
+363,staff,3,Modern Asia,Robert Adams,Northern Books,history,HIS-878,17/07/2022,07/08/2022,26/07/2022,Yes,Yes,Overdue,11,220
+364,faculty,2,Creative Drawing,Nisha Raj,Global Learning House,art,ART-917,14/02/2021,16/03/2021,01/03/2021,Yes,Yes,Overdue,10,200
+365,staff,2,Creative Drawing,Nisha Raj,Campus Publications,art,ART-857,21/04/2024,12/05/2024,11/05/2024,No,Yes,Overdue,5,100
+366,student,5,The Last Letter,Meera Collins,EduWorld Press,fiction,FIC-872,05/08/2022,19/08/2022,11/08/2022,No,No,On time,0,0
+367,faculty,8,Basics of Biology,Sarah Green,Global Learning House,science,SCI-171,17/12/2021,16/01/2022,29/12/2021,No,Yes,Overdue,20,400
+368,faculty,15,Introduction to Physics,Dr. Alan Reed,Northern Books,science,SCI-130,11/07/2022,10/08/2022,29/07/2022,No,Yes,Overdue,15,300
+369,staff,4,Digital Society,Kevin Brown,Northern Books,non-fiction,NF-406,30/03/2025,20/04/2025,01/04/2025,No,No,On time,0,0
+370,staff,17,Chemistry in Daily Life,Prof. David Lee,Northern Books,science,SCI-872,10/12/2024,31/12/2024,24/12/2024,No,Yes,Overdue,19,380
+371,staff,24,Color and Composition,A. Silva,Global Learning House,art,ART-694,05/11/2022,26/11/2022,13/11/2022,Yes,Yes,Overdue,19,380
+372,student,5,The Last Letter,Meera Collins,EduWorld Press,fiction,FIC-237,05/11/2022,19/11/2022,24/11/2022,No,Yes,Overdue,5,100
+373,faculty,7,Earth and Space Science,L. Anderson,Global Learning House,science,SCI-933,14/02/2023,16/03/2023,17/02/2023,Yes,No,On time,0,0
+374,faculty,12,Art Through Time,Victor Silva,Campus Publications,art,ART-981,29/09/2021,29/10/2021,01/10/2021,No,No,On time,0,0
+375,student,5,The Last Letter,Meera Collins,Pearl Academic Press,fiction,FIC-927,04/01/2025,18/01/2025,09/01/2025,No,No,On time,0,0
+376,staff,12,Art Through Time,Victor Silva,Pearl Academic Press,art,ART-726,18/12/2022,08/01/2023,23/12/2022,No,No,On time,0,0
+377,student,10,Learning to Research,Maria Stone,Pearl Academic Press,non-fiction,NF-573,16/04/2024,30/04/2024,17/04/2024,No,No,On time,0,0
+378,student,15,Introduction to Physics,Dr. Alan Reed,Pearl Academic Press,science,SCI-225,15/12/2024,29/12/2024,24/12/2024,No,Yes,Overdue,9,180
+379,student,13,Midnight Pages,R. K. Fernando,Campus Publications,fiction,FIC-736,09/05/2020,23/05/2020,17/05/2020,No,Yes,Overdue,7,140
+380,faculty,25,Beyond the Gate,N. Perera,Pearl Academic Press,fiction,FIC-339,03/11/2024,03/12/2024,06/11/2024,Yes,No,On time,0,0
+381,staff,5,The Last Letter,Meera Collins,Northern Books,fiction,FIC-147,11/11/2022,02/12/2022,25/11/2022,Yes,Yes,Overdue,9,180
+382,student,23,History of Sri Lanka,D. Senanayake,Global Learning House,history,HIS-647,18/01/2021,01/02/2021,22/01/2021,No,No,On time,0,0
+383,faculty,15,Introduction to Physics,Dr. Alan Reed,Global Learning House,science,SCI-315,02/01/2021,01/02/2021,05/01/2021,No,No,On time,0,0
+384,student,7,Earth and Space Science,L. Anderson,Pearl Academic Press,science,SCI-673,06/04/2025,20/04/2025,11/04/2025,Yes,No,On time,0,0
+385,student,4,Digital Society,Kevin Brown,Northern Books,non-fiction,NF-891,10/10/2021,24/10/2021,25/10/2021,Yes,Yes,Overdue,1,20
+386,faculty,24,Color and Composition,A. Silva,Pearl Academic Press,art,ART-514,25/07/2022,24/08/2022,13/08/2022,Yes,Yes,Overdue,8,160
+387,staff,25,Beyond the Gate,N. Perera,Pearl Academic Press,fiction,FIC-329,24/06/2021,15/07/2021,12/07/2021,Yes,Yes,Overdue,20,400
+388,student,16,World History Overview,James Carter,Pearl Academic Press,history,HIS-430,09/01/2021,23/01/2021,22/01/2021,Yes,Yes,Overdue,13,260
+389,faculty,16,World History Overview,James Carter,Global Learning House,history,HIS-535,21/09/2024,21/10/2024,10/10/2024,Yes,Yes,Overdue,9,180
+390,staff,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-556,23/01/2022,13/02/2022,28/01/2022,No,No,On time,0,0
+391,student,12,Art Through Time,Victor Silva,EduWorld Press,art,ART-356,17/03/2022,31/03/2022,02/04/2022,Yes,Yes,Overdue,2,40
+392,staff,1,Effective Study Skills,Dr. Helen Morris,EduWorld Press,non-fiction,NF-690,18/08/2020,08/09/2020,01/09/2020,No,Yes,Overdue,3,60
+393,faculty,1,Effective Study Skills,Dr. Helen Morris,EduWorld Press,non-fiction,NF-650,09/11/2020,09/12/2020,12/11/2020,Yes,No,On time,0,0
+394,staff,19,Communication Skills,Peter Clarke,Campus Publications,non-fiction,NF-924,28/04/2023,19/05/2023,18/05/2023,Yes,Yes,Overdue,2,40
+395,student,16,World History Overview,James Carter,Global Learning House,history,HIS-710,17/06/2022,01/07/2022,18/06/2022,Yes,No,On time,0,0
+396,student,23,History of Sri Lanka,D. Senanayake,Global Learning House,history,HIS-492,08/07/2024,22/07/2024,23/07/2024,Yes,Yes,Overdue,1,20
+397,staff,12,Art Through Time,Victor Silva,Campus Publications,art,ART-546,13/03/2021,03/04/2021,26/03/2021,Yes,Yes,Overdue,3,60
+398,student,6,Principles of Design,Emily Hart,EduWorld Press,art,ART-720,18/10/2022,01/11/2022,22/10/2022,No,No,On time,0,0
+399,faculty,3,Modern Asia,Robert Adams,Campus Publications,history,HIS-963,13/01/2023,12/02/2023,02/02/2023,Yes,Yes,Overdue,9,180
+400,staff,24,Color and Composition,A. Silva,Northern Books,art,ART-464,08/11/2023,29/11/2023,17/11/2023,No,Yes,Overdue,20,400
+401,staff,23,History of Sri Lanka,D. Senanayake,EduWorld Press,history,HIS-292,20/04/2020,11/05/2020,08/05/2020,Yes,Yes,Overdue,12,240
+402,staff,22,Cultural Heritage,Latha Raman,EduWorld Press,history,HIS-954,30/06/2020,21/07/2020,01/07/2020,Yes,No,On time,0,0
+403,staff,23,History of Sri Lanka,D. Senanayake,Pearl Academic Press,history,HIS-197,02/04/2025,23/04/2025,07/04/2025,Yes,No,On time,0,0
+404,staff,12,Art Through Time,Victor Silva,Northern Books,art,ART-131,19/09/2021,10/10/2021,24/09/2021,No,No,On time,0,0
+405,faculty,23,History of Sri Lanka,D. Senanayake,Northern Books,history,HIS-237,18/07/2023,17/08/2023,31/07/2023,No,Yes,Overdue,7,140
+406,staff,1,Effective Study Skills,Dr. Helen Morris,Pearl Academic Press,non-fiction,NF-740,10/01/2021,31/01/2021,26/01/2021,Yes,Yes,Overdue,6,120
+407,staff,4,Digital Society,Kevin Brown,Pearl Academic Press,non-fiction,NF-681,28/08/2023,18/09/2023,04/09/2023,No,No,On time,0,0
+408,faculty,20,Modern Art Guide,Laura King,Global Learning House,art,ART-103,27/08/2021,26/09/2021,31/08/2021,No,No,On time,0,0
+409,student,2,Creative Drawing,Nisha Raj,Global Learning House,art,ART-902,03/06/2023,17/06/2023,12/06/2023,Yes,Yes,Overdue,13,260
+410,student,7,Earth and Space Science,L. Anderson,Campus Publications,science,SCI-488,28/07/2020,11/08/2020,08/08/2020,No,Yes,Overdue,6,120
+411,student,6,Principles of Design,Emily Hart,Campus Publications,art,ART-780,24/10/2020,07/11/2020,28/10/2020,No,No,On time,0,0
+412,faculty,21,Island Dreams,S. Wijesinghe,EduWorld Press,fiction,FIC-853,08/02/2020,09/03/2020,23/02/2020,Yes,Yes,Overdue,4,80
+413,faculty,20,Modern Art Guide,Laura King,Northern Books,art,ART-613,22/09/2024,22/10/2024,07/10/2024,No,Yes,Overdue,15,300
+414,faculty,16,World History Overview,James Carter,Pearl Academic Press,history,HIS-445,29/11/2020,29/12/2020,12/12/2020,No,Yes,Overdue,3,60
+415,staff,1,Effective Study Skills,Dr. Helen Morris,Northern Books,non-fiction,NF-485,27/03/2022,17/04/2022,05/04/2022,No,Yes,Overdue,6,120
+416,staff,11,Leadership Basics,A. Jayawardena,Campus Publications,non-fiction,NF-482,03/08/2024,24/08/2024,18/08/2024,Yes,Yes,Overdue,3,60
+417,student,1,Effective Study Skills,Dr. Helen Morris,Global Learning House,non-fiction,NF-915,01/06/2020,15/06/2020,06/06/2020,Yes,No,On time,0,0
+418,staff,17,Chemistry in Daily Life,Prof. David Lee,Northern Books,science,SCI-382,07/08/2021,28/08/2021,12/08/2021,No,No,On time,0,0
+419,student,23,History of Sri Lanka,D. Senanayake,Pearl Academic Press,history,HIS-532,19/03/2023,02/04/2023,03/04/2023,No,Yes,Overdue,1,20
+420,student,25,Beyond the Gate,N. Perera,Global Learning House,fiction,FIC-529,23/01/2025,06/02/2025,25/01/2025,No,No,On time,0,0
+421,staff,19,Communication Skills,Peter Clarke,Northern Books,non-fiction,NF-429,01/03/2025,22/03/2025,15/03/2025,Yes,Yes,Overdue,7,140
+422,staff,1,Effective Study Skills,Dr. Helen Morris,Pearl Academic Press,non-fiction,NF-410,19/03/2025,09/04/2025,29/03/2025,No,Yes,Overdue,1,20
+423,faculty,3,Modern Asia,Robert Adams,EduWorld Press,history,HIS-558,15/10/2022,14/11/2022,02/11/2022,Yes,Yes,Overdue,13,260
+424,staff,23,History of Sri Lanka,D. Senanayake,EduWorld Press,history,HIS-167,03/09/2022,24/09/2022,06/09/2022,No,No,On time,0,0
+425,staff,6,Principles of Design,Emily Hart,Campus Publications,art,ART-895,09/12/2024,30/12/2024,27/12/2024,Yes,Yes,Overdue,6,120
+426,student,3,Modern Asia,Robert Adams,Northern Books,history,HIS-128,27/10/2021,10/11/2021,16/11/2021,No,Yes,Overdue,6,120
+427,staff,7,Earth and Space Science,L. Anderson,Northern Books,science,SCI-683,05/04/2020,26/04/2020,06/04/2020,No,No,On time,0,0
+428,staff,1,Effective Study Skills,Dr. Helen Morris,Northern Books,non-fiction,NF-195,21/10/2021,11/11/2021,08/11/2021,Yes,Yes,Overdue,4,80
+429,staff,4,Digital Society,Kevin Brown,EduWorld Press,non-fiction,NF-391,29/05/2021,19/06/2021,17/06/2021,No,Yes,Overdue,19,380
+430,faculty,7,Earth and Space Science,L. Anderson,EduWorld Press,science,SCI-398,09/08/2023,08/09/2023,16/08/2023,Yes,No,On time,0,0
+431,student,12,Art Through Time,Victor Silva,Global Learning House,art,ART-246,06/06/2021,20/06/2021,24/06/2021,No,Yes,Overdue,4,80
+432,staff,6,Principles of Design,Emily Hart,Global Learning House,art,ART-195,30/08/2023,20/09/2023,07/09/2023,No,Yes,Overdue,2,40
+433,staff,14,The Silent River,Anita Rao,Global Learning House,fiction,FIC-430,07/04/2020,28/04/2020,20/04/2020,Yes,Yes,Overdue,8,160
+434,faculty,11,Leadership Basics,A. Jayawardena,EduWorld Press,non-fiction,NF-507,08/02/2024,09/03/2024,12/02/2024,Yes,No,On time,0,0
+435,staff,9,Ancient Civilizations,Priya Menon,Pearl Academic Press,history,HIS-286,17/05/2021,07/06/2021,19/05/2021,Yes,No,On time,0,0
+436,student,12,Art Through Time,Victor Silva,Global Learning House,art,ART-991,21/06/2023,05/07/2023,04/07/2023,Yes,Yes,Overdue,10,200
+437,faculty,10,Learning to Research,Maria Stone,Pearl Academic Press,non-fiction,NF-718,18/08/2023,17/09/2023,04/09/2023,No,Yes,Overdue,1,20
+438,faculty,5,The Last Letter,Meera Collins,Global Learning House,fiction,FIC-597,11/07/2023,10/08/2023,12/07/2023,No,No,On time,0,0
+439,student,1,Effective Study Skills,Dr. Helen Morris,Pearl Academic Press,non-fiction,NF-290,16/11/2020,30/11/2020,28/11/2020,No,Yes,Overdue,6,120
+440,faculty,25,Beyond the Gate,N. Perera,Global Learning House,fiction,FIC-529,12/05/2020,11/06/2020,29/05/2020,Yes,Yes,Overdue,18,360
+441,staff,16,World History Overview,James Carter,Pearl Academic Press,history,HIS-695,14/03/2020,04/04/2020,18/03/2020,No,No,On time,0,0
+442,staff,21,Island Dreams,S. Wijesinghe,Campus Publications,fiction,FIC-588,12/01/2020,02/02/2020,18/01/2020,Yes,No,On time,0,0
+443,staff,23,History of Sri Lanka,D. Senanayake,Campus Publications,history,HIS-812,02/03/2021,23/03/2021,14/03/2021,Yes,Yes,Overdue,17,340
+444,faculty,15,Introduction to Physics,Dr. Alan Reed,Global Learning House,science,SCI-815,25/10/2023,24/11/2023,05/11/2023,Yes,Yes,Overdue,19,380
+445,staff,10,Learning to Research,Maria Stone,EduWorld Press,non-fiction,NF-433,08/02/2024,29/02/2024,15/02/2024,No,No,On time,0,0
+446,student,2,Creative Drawing,Nisha Raj,Pearl Academic Press,art,ART-597,09/03/2024,23/03/2024,11/03/2024,No,No,On time,0,0
+447,staff,18,Computer Science Fundamentals,M. Kumar,EduWorld Press,science,SCI-564,27/08/2020,17/09/2020,01/09/2020,Yes,No,On time,0,0
+448,student,24,Color and Composition,A. Silva,Campus Publications,art,ART-444,19/08/2020,02/09/2020,22/08/2020,Yes,No,On time,0,0
+449,faculty,10,Learning to Research,Maria Stone,Pearl Academic Press,non-fiction,NF-553,28/01/2022,27/02/2022,29/01/2022,No,No,On time,0,0
+450,staff,7,Earth and Space Science,L. Anderson,Campus Publications,science,SCI-443,30/10/2020,20/11/2020,04/11/2020,No,No,On time,0,0
+451,faculty,18,Computer Science Fundamentals,M. Kumar,Campus Publications,science,SCI-709,02/03/2023,01/04/2023,14/03/2023,Yes,Yes,Overdue,5,100
+452,staff,15,Introduction to Physics,Dr. Alan Reed,Northern Books,science,SCI-140,18/11/2023,09/12/2023,22/11/2023,Yes,No,On time,0,0
+453,student,15,Introduction to Physics,Dr. Alan Reed,Pearl Academic Press,science,SCI-505,25/06/2022,09/07/2022,12/07/2022,Yes,Yes,Overdue,3,60
+454,student,2,Creative Drawing,Nisha Raj,Northern Books,art,ART-877,25/07/2023,08/08/2023,03/08/2023,No,Yes,Overdue,9,180
+455,student,15,Introduction to Physics,Dr. Alan Reed,Global Learning House,science,SCI-165,02/02/2021,16/02/2021,20/02/2021,No,Yes,Overdue,4,80
+456,staff,18,Computer Science Fundamentals,M. Kumar,Campus Publications,science,SCI-179,23/06/2021,14/07/2021,04/07/2021,Yes,Yes,Overdue,10,200
+457,student,8,Basics of Biology,Sarah Green,Global Learning House,science,SCI-466,09/01/2020,23/01/2020,10/01/2020,Yes,No,On time,0,0
+458,student,19,Communication Skills,Peter Clarke,Northern Books,non-fiction,NF-429,02/06/2024,16/06/2024,13/06/2024,No,Yes,Overdue,11,220
+459,faculty,11,Leadership Basics,A. Jayawardena,Northern Books,non-fiction,NF-962,28/07/2021,27/08/2021,03/08/2021,Yes,No,On time,0,0
+460,staff,3,Modern Asia,Robert Adams,Pearl Academic Press,history,HIS-473,04/08/2021,25/08/2021,11/08/2021,Yes,No,On time,0,0
+461,faculty,17,Chemistry in Daily Life,Prof. David Lee,Global Learning House,science,SCI-187,10/08/2022,09/09/2022,23/08/2022,No,Yes,Overdue,13,260
+462,faculty,9,Ancient Civilizations,Priya Menon,EduWorld Press,history,HIS-326,10/10/2020,09/11/2020,11/10/2020,Yes,No,On time,0,0
+463,student,16,World History Overview,James Carter,Pearl Academic Press,history,HIS-735,25/12/2021,08/01/2022,30/12/2021,No,No,On time,0,0
+464,student,17,Chemistry in Daily Life,Prof. David Lee,Campus Publications,science,SCI-182,27/01/2020,10/02/2020,28/01/2020,Yes,No,On time,0,0
+465,faculty,4,Digital Society,Kevin Brown,Northern Books,non-fiction,NF-746,01/02/2023,03/03/2023,12/02/2023,Yes,Yes,Overdue,14,280
+466,student,25,Beyond the Gate,N. Perera,EduWorld Press,fiction,FIC-844,03/10/2024,17/10/2024,17/10/2024,Yes,Yes,Overdue,12,240
+467,student,20,Modern Art Guide,Laura King,Campus Publications,art,ART-468,14/07/2021,28/07/2021,31/07/2021,Yes,Yes,Overdue,3,60
+468,faculty,11,Leadership Basics,A. Jayawardena,Pearl Academic Press,non-fiction,NF-102,14/09/2023,14/10/2023,04/10/2023,Yes,Yes,Overdue,15,300
+469,faculty,8,Basics of Biology,Sarah Green,Pearl Academic Press,science,SCI-586,07/06/2020,07/07/2020,19/06/2020,Yes,Yes,Overdue,3,60
+470,faculty,22,Cultural Heritage,Latha Raman,Pearl Academic Press,history,HIS-574,28/06/2022,28/07/2022,29/06/2022,Yes,No,On time,0,0
+471,student,24,Color and Composition,A. Silva,Campus Publications,art,ART-339,26/11/2020,10/12/2020,16/12/2020,No,Yes,Overdue,6,120
+472,staff,1,Effective Study Skills,Dr. Helen Morris,Northern Books,non-fiction,NF-740,03/04/2023,24/04/2023,22/04/2023,No,Yes,Overdue,14,280
+473,student,3,Modern Asia,Robert Adams,Pearl Academic Press,history,HIS-143,30/12/2021,13/01/2022,17/01/2022,No,Yes,Overdue,4,80
+474,student,9,Ancient Civilizations,Priya Menon,EduWorld Press,history,HIS-721,25/01/2022,08/02/2022,07/02/2022,Yes,Yes,Overdue,5,100
+475,staff,1,Effective Study Skills,Dr. Helen Morris,Pearl Academic Press,non-fiction,NF-730,28/01/2023,18/02/2023,05/02/2023,No,Yes,Overdue,8,160
+476,staff,21,Island Dreams,S. Wijesinghe,Campus Publications,fiction,FIC-193,18/06/2022,09/07/2022,27/06/2022,Yes,Yes,Overdue,6,120
+477,staff,23,History of Sri Lanka,D. Senanayake,Campus Publications,history,HIS-762,17/10/2023,07/11/2023,20/10/2023,No,No,On time,0,0
+478,faculty,24,Color and Composition,A. Silva,Campus Publications,art,ART-789,15/07/2021,14/08/2021,17/07/2021,Yes,No,On time,0,0
+479,student,4,Digital Society,Kevin Brown,Pearl Academic Press,non-fiction,NF-676,01/09/2022,15/09/2022,18/09/2022,No,Yes,Overdue,3,60
+480,staff,15,Introduction to Physics,Dr. Alan Reed,EduWorld Press,science,SCI-835,09/04/2021,30/04/2021,13/04/2021,No,No,On time,0,0
+481,student,2,Creative Drawing,Nisha Raj,Northern Books,art,ART-987,24/07/2022,07/08/2022,07/08/2022,No,Yes,Overdue,5,100
+482,student,24,Color and Composition,A. Silva,Campus Publications,art,ART-614,12/09/2024,26/09/2024,23/09/2024,Yes,Yes,Overdue,12,240
+483,faculty,8,Basics of Biology,Sarah Green,Pearl Academic Press,science,SCI-496,27/07/2023,26/08/2023,15/08/2023,Yes,Yes,Overdue,18,360
+484,student,4,Digital Society,Kevin Brown,EduWorld Press,non-fiction,NF-826,23/08/2021,06/09/2021,07/09/2021,No,Yes,Overdue,1,20
+485,student,22,Cultural Heritage,Latha Raman,Pearl Academic Press,history,HIS-889,07/11/2024,21/11/2024,25/11/2024,Yes,Yes,Overdue,4,80
+486,faculty,19,Communication Skills,Peter Clarke,Pearl Academic Press,non-fiction,NF-744,12/07/2022,11/08/2022,27/07/2022,Yes,Yes,Overdue,13,260
+487,faculty,6,Principles of Design,Emily Hart,Global Learning House,art,ART-595,16/10/2022,15/11/2022,28/10/2022,No,Yes,Overdue,14,280
+488,staff,14,The Silent River,Anita Rao,Northern Books,fiction,FIC-235,05/09/2023,26/09/2023,18/09/2023,No,Yes,Overdue,13,260
+489,staff,22,Cultural Heritage,Latha Raman,EduWorld Press,history,HIS-774,17/07/2021,07/08/2021,27/07/2021,No,Yes,Overdue,1,20
+490,staff,21,Island Dreams,S. Wijesinghe,Northern Books,fiction,FIC-633,28/03/2020,18/04/2020,29/03/2020,No,No,On time,0,0
+491,faculty,11,Leadership Basics,A. Jayawardena,Campus Publications,non-fiction,NF-952,16/06/2023,16/07/2023,20/06/2023,Yes,No,On time,0,0
+492,student,5,The Last Letter,Meera Collins,Global Learning House,fiction,FIC-627,18/04/2022,02/05/2022,03/05/2022,No,Yes,Overdue,1,20
+493,staff,15,Introduction to Physics,Dr. Alan Reed,Pearl Academic Press,science,SCI-765,05/06/2024,26/06/2024,24/06/2024,No,Yes,Overdue,14,280
+494,faculty,24,Color and Composition,A. Silva,Global Learning House,art,ART-654,20/08/2023,19/09/2023,30/08/2023,No,Yes,Overdue,15,300
+495,faculty,5,The Last Letter,Meera Collins,EduWorld Press,fiction,FIC-302,28/03/2022,27/04/2022,31/03/2022,No,No,On time,0,0
+496,staff,10,Learning to Research,Maria Stone,Global Learning House,non-fiction,NF-338,16/06/2021,07/07/2021,22/06/2021,Yes,No,On time,0,0
+497,staff,21,Island Dreams,S. Wijesinghe,Pearl Academic Press,fiction,FIC-238,20/05/2021,10/06/2021,27/05/2021,No,No,On time,0,0
+498,student,25,Beyond the Gate,N. Perera,EduWorld Press,fiction,FIC-824,18/03/2021,01/04/2021,28/03/2021,No,Yes,Overdue,18,360
+499,staff,24,Color and Composition,A. Silva,Pearl Academic Press,art,ART-394,19/06/2020,10/07/2020,23/06/2020,Yes,No,On time,0,0
+500,student,24,Color and Composition,A. Silva,Northern Books,art,ART-989,17/03/2023,31/03/2023,28/03/2023,Yes,Yes,Overdue,12,240
+501,student,8,Basics of Biology,Sarah Green,Campus Publications,science,SCI-161,15/08/2022,29/08/2022,30/08/2022,No,Yes,Overdue,1,20
+502,staff,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-910,11/11/2020,02/12/2020,24/11/2020,Yes,Yes,Overdue,20,400
+503,faculty,11,Leadership Basics,A. Jayawardena,Campus Publications,non-fiction,NF-647,01/11/2022,01/12/2022,06/11/2022,No,No,On time,0,0
+504,staff,22,Cultural Heritage,Latha Raman,Northern Books,history,HIS-944,21/02/2020,13/03/2020,27/02/2020,No,No,On time,0,0
+505,student,19,Communication Skills,Peter Clarke,EduWorld Press,non-fiction,NF-214,24/09/2020,08/10/2020,10/10/2020,Yes,Yes,Overdue,2,40
+506,student,12,Art Through Time,Victor Silva,Campus Publications,art,ART-821,06/03/2020,20/03/2020,15/03/2020,No,Yes,Overdue,6,120
+507,student,18,Computer Science Fundamentals,M. Kumar,EduWorld Press,science,SCI-164,02/03/2022,16/03/2022,10/03/2022,No,Yes,Overdue,19,380
+508,faculty,20,Modern Art Guide,Laura King,Global Learning House,art,ART-878,24/09/2020,24/10/2020,12/10/2020,Yes,Yes,Overdue,8,160
+509,staff,5,The Last Letter,Meera Collins,Northern Books,fiction,FIC-127,29/01/2023,19/02/2023,18/02/2023,Yes,Yes,Overdue,8,160
+510,staff,7,Earth and Space Science,L. Anderson,Pearl Academic Press,science,SCI-353,03/02/2020,24/02/2020,04/02/2020,Yes,No,On time,0,0
+511,faculty,11,Leadership Basics,A. Jayawardena,Northern Books,non-fiction,NF-547,06/09/2024,06/10/2024,17/09/2024,Yes,Yes,Overdue,14,280
+512,student,16,World History Overview,James Carter,Northern Books,history,HIS-555,08/09/2024,22/09/2024,13/09/2024,Yes,No,On time,0,0
+513,faculty,16,World History Overview,James Carter,Northern Books,history,HIS-835,19/01/2023,18/02/2023,03/02/2023,No,Yes,Overdue,9,180
+514,faculty,8,Basics of Biology,Sarah Green,Global Learning House,science,SCI-516,05/01/2023,04/02/2023,18/01/2023,Yes,Yes,Overdue,5,100
+515,student,24,Color and Composition,A. Silva,Northern Books,art,ART-514,21/11/2024,05/12/2024,30/11/2024,Yes,Yes,Overdue,9,180
+516,student,13,Midnight Pages,R. K. Fernando,Campus Publications,fiction,FIC-171,30/11/2021,14/12/2021,06/12/2021,Yes,No,On time,0,0
+517,staff,12,Art Through Time,Victor Silva,Northern Books,art,ART-716,28/12/2024,18/01/2025,11/01/2025,No,Yes,Overdue,1,20
+518,staff,14,The Silent River,Anita Rao,Campus Publications,fiction,FIC-235,25/04/2024,16/05/2024,07/05/2024,Yes,Yes,Overdue,15,300
+519,faculty,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-162,29/08/2024,28/09/2024,02/09/2024,No,No,On time,0,0
+520,staff,25,Beyond the Gate,N. Perera,Campus Publications,fiction,FIC-259,17/06/2020,08/07/2020,27/06/2020,No,Yes,Overdue,17,340
+521,faculty,14,The Silent River,Anita Rao,Pearl Academic Press,fiction,FIC-225,30/03/2024,29/04/2024,19/04/2024,No,Yes,Overdue,15,300
+522,staff,1,Effective Study Skills,Dr. Helen Morris,Global Learning House,non-fiction,NF-900,21/01/2022,11/02/2022,06/02/2022,No,Yes,Overdue,17,340
+523,staff,24,Color and Composition,A. Silva,EduWorld Press,art,ART-874,23/04/2022,14/05/2022,30/04/2022,Yes,No,On time,0,0
+524,student,24,Color and Composition,A. Silva,Campus Publications,art,ART-594,12/04/2023,26/04/2023,14/04/2023,No,No,On time,0,0
+525,faculty,1,Effective Study Skills,Dr. Helen Morris,Global Learning House,non-fiction,NF-885,04/07/2020,03/08/2020,11/07/2020,Yes,No,On time,0,0
+526,student,1,Effective Study Skills,Dr. Helen Morris,Northern Books,non-fiction,NF-510,11/10/2020,25/10/2020,13/10/2020,Yes,No,On time,0,0
+527,student,12,Art Through Time,Victor Silva,Campus Publications,art,ART-546,17/01/2024,31/01/2024,25/01/2024,No,Yes,Overdue,1,20
+528,student,13,Midnight Pages,R. K. Fernando,Pearl Academic Press,fiction,FIC-856,03/03/2021,17/03/2021,12/03/2021,No,Yes,Overdue,2,40
+529,staff,4,Digital Society,Kevin Brown,Pearl Academic Press,non-fiction,NF-301,23/03/2023,13/04/2023,05/04/2023,No,Yes,Overdue,14,280
+530,student,1,Effective Study Skills,Dr. Helen Morris,Campus Publications,non-fiction,NF-735,06/02/2025,20/02/2025,25/02/2025,No,Yes,Overdue,5,100
+531,student,4,Digital Society,Kevin Brown,Campus Publications,non-fiction,NF-891,14/07/2020,28/07/2020,01/08/2020,No,Yes,Overdue,4,80
+532,faculty,21,Island Dreams,S. Wijesinghe,Global Learning House,fiction,FIC-508,30/04/2024,30/05/2024,06/05/2024,No,No,On time,0,0
+533,student,7,Earth and Space Science,L. Anderson,Global Learning House,science,SCI-448,11/08/2020,25/08/2020,15/08/2020,No,No,On time,0,0
+534,staff,25,Beyond the Gate,N. Perera,Global Learning House,fiction,FIC-724,05/05/2022,26/05/2022,16/05/2022,Yes,Yes,Overdue,5,100
+535,student,3,Modern Asia,Robert Adams,EduWorld Press,history,HIS-303,08/03/2025,22/03/2025,19/03/2025,No,Yes,Overdue,13,260
+536,staff,11,Leadership Basics,A. Jayawardena,Northern Books,non-fiction,NF-117,27/09/2021,18/10/2021,29/09/2021,Yes,No,On time,0,0
+537,student,1,Effective Study Skills,Dr. Helen Morris,Northern Books,non-fiction,NF-590,09/07/2020,23/07/2020,14/07/2020,No,No,On time,0,0
+538,faculty,3,Modern Asia,Robert Adams,Global Learning House,history,HIS-643,30/06/2023,30/07/2023,13/07/2023,No,Yes,Overdue,16,320
+539,student,3,Modern Asia,Robert Adams,Campus Publications,history,HIS-808,27/08/2024,10/09/2024,10/09/2024,Yes,Yes,Overdue,1,20
+540,staff,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-995,08/08/2022,29/08/2022,10/08/2022,No,No,On time,0,0
+541,faculty,22,Cultural Heritage,Latha Raman,Global Learning House,history,HIS-804,04/03/2020,03/04/2020,22/03/2020,Yes,Yes,Overdue,3,60
+542,student,24,Color and Composition,A. Silva,EduWorld Press,art,ART-164,26/09/2022,10/10/2022,30/09/2022,No,No,On time,0,0
+543,student,20,Modern Art Guide,Laura King,Northern Books,art,ART-963,15/06/2022,29/06/2022,26/06/2022,No,Yes,Overdue,14,280
+544,staff,14,The Silent River,Anita Rao,EduWorld Press,fiction,FIC-970,29/03/2020,19/04/2020,12/04/2020,Yes,Yes,Overdue,14,280
+545,student,11,Leadership Basics,A. Jayawardena,Northern Books,non-fiction,NF-827,24/05/2022,07/06/2022,03/06/2022,Yes,Yes,Overdue,4,80
+546,faculty,9,Ancient Civilizations,Priya Menon,Northern Books,history,HIS-516,04/01/2022,03/02/2022,05/01/2022,Yes,No,On time,0,0
+547,student,22,Cultural Heritage,Latha Raman,EduWorld Press,history,HIS-949,19/05/2023,02/06/2023,22/05/2023,No,No,On time,0,0
+548,staff,16,World History Overview,James Carter,Pearl Academic Press,history,HIS-445,30/08/2024,20/09/2024,17/09/2024,No,Yes,Overdue,14,280
+549,student,23,History of Sri Lanka,D. Senanayake,Campus Publications,history,HIS-792,14/05/2021,28/05/2021,21/05/2021,Yes,No,On time,0,0
+550,student,16,World History Overview,James Carter,Northern Books,history,HIS-320,16/08/2023,30/08/2023,29/08/2023,Yes,Yes,Overdue,14,280
+551,staff,25,Beyond the Gate,N. Perera,Northern Books,fiction,FIC-604,21/07/2023,11/08/2023,05/08/2023,Yes,Yes,Overdue,5,100
+552,student,15,Introduction to Physics,Dr. Alan Reed,Northern Books,science,SCI-455,17/08/2020,31/08/2020,24/08/2020,No,No,On time,0,0
+553,faculty,8,Basics of Biology,Sarah Green,Pearl Academic Press,science,SCI-891,10/12/2020,09/01/2021,23/12/2020,No,Yes,Overdue,6,120
+554,faculty,7,Earth and Space Science,L. Anderson,EduWorld Press,science,SCI-493,28/06/2021,28/07/2021,29/06/2021,No,No,On time,0,0
+555,faculty,10,Learning to Research,Maria Stone,Global Learning House,non-fiction,NF-253,06/12/2024,05/01/2025,08/12/2024,Yes,No,On time,0,0
+556,staff,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-155,29/11/2022,20/12/2022,03/12/2022,No,No,On time,0,0
+557,student,21,Island Dreams,S. Wijesinghe,Global Learning House,fiction,FIC-213,08/04/2024,22/04/2024,11/04/2024,Yes,No,On time,0,0
+558,staff,25,Beyond the Gate,N. Perera,Northern Books,fiction,FIC-494,22/11/2024,13/12/2024,03/12/2024,Yes,Yes,Overdue,6,120
+559,staff,12,Art Through Time,Victor Silva,Pearl Academic Press,art,ART-181,18/12/2024,08/01/2025,27/12/2024,No,Yes,Overdue,14,280
+560,faculty,24,Color and Composition,A. Silva,Campus Publications,art,ART-404,07/04/2024,07/05/2024,24/04/2024,Yes,Yes,Overdue,11,220
+561,student,23,History of Sri Lanka,D. Senanayake,Pearl Academic Press,history,HIS-712,22/04/2023,06/05/2023,25/04/2023,No,No,On time,0,0
+562,faculty,20,Modern Art Guide,Laura King,Pearl Academic Press,art,ART-243,28/02/2021,30/03/2021,16/03/2021,No,Yes,Overdue,3,60
+563,faculty,4,Digital Society,Kevin Brown,EduWorld Press,non-fiction,NF-426,17/06/2024,17/07/2024,19/06/2024,Yes,No,On time,0,0
+564,student,20,Modern Art Guide,Laura King,Global Learning House,art,ART-663,23/07/2022,06/08/2022,11/08/2022,No,Yes,Overdue,5,100
+565,student,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-811,08/05/2020,22/05/2020,27/05/2020,No,Yes,Overdue,5,100
+566,faculty,21,Island Dreams,S. Wijesinghe,Pearl Academic Press,fiction,FIC-283,27/06/2020,27/07/2020,08/07/2020,No,Yes,Overdue,3,60
+567,student,1,Effective Study Skills,Dr. Helen Morris,Campus Publications,non-fiction,NF-885,02/06/2022,16/06/2022,13/06/2022,Yes,Yes,Overdue,9,180
+568,staff,1,Effective Study Skills,Dr. Helen Morris,Northern Books,non-fiction,NF-415,24/08/2020,14/09/2020,25/08/2020,No,No,On time,0,0
+569,staff,5,The Last Letter,Meera Collins,Pearl Academic Press,fiction,FIC-857,15/01/2021,05/02/2021,04/02/2021,Yes,Yes,Overdue,3,60
+570,faculty,21,Island Dreams,S. Wijesinghe,Global Learning House,fiction,FIC-488,20/07/2024,19/08/2024,30/07/2024,Yes,Yes,Overdue,5,100
+571,student,10,Learning to Research,Maria Stone,Campus Publications,non-fiction,NF-763,11/11/2024,25/11/2024,15/11/2024,Yes,No,On time,0,0
+572,faculty,18,Computer Science Fundamentals,M. Kumar,Campus Publications,science,SCI-194,21/03/2021,20/04/2021,01/04/2021,No,Yes,Overdue,15,300
+573,faculty,11,Leadership Basics,A. Jayawardena,EduWorld Press,non-fiction,NF-902,19/01/2025,18/02/2025,29/01/2025,No,Yes,Overdue,11,220
+574,staff,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-466,17/03/2025,07/04/2025,21/03/2025,Yes,No,On time,0,0
+575,faculty,14,The Silent River,Anita Rao,Global Learning House,fiction,FIC-270,20/10/2021,19/11/2021,05/11/2021,No,Yes,Overdue,18,360
+576,staff,18,Computer Science Fundamentals,M. Kumar,Northern Books,science,SCI-719,27/11/2023,18/12/2023,17/12/2023,No,Yes,Overdue,8,160
+577,student,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-256,14/05/2023,28/05/2023,02/06/2023,No,Yes,Overdue,5,100
+578,student,8,Basics of Biology,Sarah Green,Pearl Academic Press,science,SCI-841,01/02/2020,15/02/2020,19/02/2020,No,Yes,Overdue,4,80
+579,faculty,18,Computer Science Fundamentals,M. Kumar,Northern Books,science,SCI-644,25/01/2022,24/02/2022,01/02/2022,No,No,On time,0,0
+580,staff,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-366,05/06/2024,26/06/2024,11/06/2024,No,No,On time,0,0
+581,faculty,1,Effective Study Skills,Dr. Helen Morris,Global Learning House,non-fiction,NF-725,15/07/2022,14/08/2022,19/07/2022,No,No,On time,0,0
+582,student,4,Digital Society,Kevin Brown,EduWorld Press,non-fiction,NF-161,13/04/2023,27/04/2023,17/04/2023,No,No,On time,0,0
+583,staff,24,Color and Composition,A. Silva,EduWorld Press,art,ART-754,04/03/2023,25/03/2023,07/03/2023,No,No,On time,0,0
+584,student,14,The Silent River,Anita Rao,Pearl Academic Press,fiction,FIC-330,28/02/2021,14/03/2021,15/03/2021,No,Yes,Overdue,1,20
+585,student,25,Beyond the Gate,N. Perera,Northern Books,fiction,FIC-449,26/03/2023,09/04/2023,12/04/2023,No,Yes,Overdue,3,60
+586,faculty,4,Digital Society,Kevin Brown,Campus Publications,non-fiction,NF-531,03/12/2024,02/01/2025,18/12/2024,No,Yes,Overdue,13,260
+587,student,21,Island Dreams,S. Wijesinghe,Northern Books,fiction,FIC-563,29/02/2024,14/03/2024,11/03/2024,No,Yes,Overdue,17,340
+588,faculty,11,Leadership Basics,A. Jayawardena,Campus Publications,non-fiction,NF-802,25/09/2024,25/10/2024,12/10/2024,Yes,Yes,Overdue,5,100
+589,student,23,History of Sri Lanka,D. Senanayake,Campus Publications,history,HIS-897,15/12/2022,29/12/2022,04/01/2023,Yes,Yes,Overdue,6,120
+590,staff,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-295,23/09/2021,14/10/2021,26/09/2021,No,No,On time,0,0
+591,student,25,Beyond the Gate,N. Perera,Campus Publications,fiction,FIC-329,05/12/2022,19/12/2022,12/12/2022,No,No,On time,0,0
+592,student,13,Midnight Pages,R. K. Fernando,EduWorld Press,fiction,FIC-246,13/06/2024,27/06/2024,23/06/2024,Yes,Yes,Overdue,1,20
+593,staff,17,Chemistry in Daily Life,Prof. David Lee,EduWorld Press,science,SCI-937,09/11/2023,30/11/2023,13/11/2023,No,No,On time,0,0
+594,faculty,16,World History Overview,James Carter,Global Learning House,history,HIS-950,01/07/2022,31/07/2022,05/07/2022,Yes,No,On time,0,0
+595,staff,21,Island Dreams,S. Wijesinghe,Global Learning House,fiction,FIC-938,24/07/2023,14/08/2023,30/07/2023,No,No,On time,0,0
+596,faculty,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-415,04/11/2023,04/12/2023,14/11/2023,Yes,Yes,Overdue,1,20
+597,staff,17,Chemistry in Daily Life,Prof. David Lee,Campus Publications,science,SCI-377,18/11/2023,09/12/2023,08/12/2023,No,Yes,Overdue,2,40
+598,faculty,4,Digital Society,Kevin Brown,Campus Publications,non-fiction,NF-386,05/07/2022,04/08/2022,17/07/2022,No,Yes,Overdue,14,280
+599,student,24,Color and Composition,A. Silva,Global Learning House,art,ART-804,22/11/2024,06/12/2024,23/11/2024,No,No,On time,0,0
+600,student,17,Chemistry in Daily Life,Prof. David Lee,Global Learning House,science,SCI-457,16/02/2023,02/03/2023,06/03/2023,No,Yes,Overdue,4,80
+601,student,6,Principles of Design,Emily Hart,Northern Books,art,ART-240,12/02/2023,26/02/2023,25/02/2023,No,Yes,Overdue,14,280
+602,staff,13,Midnight Pages,R. K. Fernando,Northern Books,fiction,FIC-466,18/06/2022,09/07/2022,01/07/2022,No,Yes,Overdue,13,260
+603,faculty,11,Leadership Basics,A. Jayawardena,Campus Publications,non-fiction,NF-757,01/09/2022,01/10/2022,18/09/2022,No,Yes,Overdue,11,220
+604,student,13,Midnight Pages,R. K. Fernando,Pearl Academic Press,fiction,FIC-756,01/12/2020,15/12/2020,02/12/2020,Yes,No,On time,0,0
+605,student,13,Midnight Pages,R. K. Fernando,Campus Publications,fiction,FIC-151,17/07/2022,31/07/2022,24/07/2022,Yes,No,On time,0,0
+606,staff,25,Beyond the Gate,N. Perera,Northern Books,fiction,FIC-279,14/06/2022,05/07/2022,30/06/2022,No,Yes,Overdue,4,80
+607,faculty,14,The Silent River,Anita Rao,Global Learning House,fiction,FIC-145,25/10/2021,24/11/2021,14/11/2021,Yes,Yes,Overdue,5,100
+608,staff,13,Midnight Pages,R. K. Fernando,Pearl Academic Press,fiction,FIC-231,18/02/2020,10/03/2020,06/03/2020,Yes,Yes,Overdue,18,360
+609,faculty,20,Modern Art Guide,Laura King,Pearl Academic Press,art,ART-203,19/05/2023,18/06/2023,26/05/2023,No,No,On time,0,0
+610,faculty,2,Creative Drawing,Nisha Raj,Global Learning House,art,ART-352,17/09/2021,17/10/2021,24/09/2021,Yes,No,On time,0,0
+611,student,20,Modern Art Guide,Laura King,EduWorld Press,art,ART-578,12/02/2024,26/02/2024,28/02/2024,Yes,Yes,Overdue,2,40
+612,faculty,13,Midnight Pages,R. K. Fernando,EduWorld Press,fiction,FIC-416,19/02/2025,21/03/2025,01/03/2025,Yes,Yes,Overdue,19,380
+613,faculty,17,Chemistry in Daily Life,Prof. David Lee,Global Learning House,science,SCI-782,04/08/2022,03/09/2022,16/08/2022,No,Yes,Overdue,14,280
+614,staff,14,The Silent River,Anita Rao,Global Learning House,fiction,FIC-200,13/09/2024,04/10/2024,28/09/2024,Yes,Yes,Overdue,5,100
+615,student,2,Creative Drawing,Nisha Raj,Pearl Academic Press,art,ART-177,20/09/2020,04/10/2020,04/10/2020,No,Yes,Overdue,8,160
+616,student,16,World History Overview,James Carter,Northern Books,history,HIS-570,27/12/2022,10/01/2023,15/01/2023,No,Yes,Overdue,5,100
+617,student,20,Modern Art Guide,Laura King,Northern Books,art,ART-248,31/12/2021,14/01/2022,06/01/2022,No,No,On time,0,0
+618,faculty,13,Midnight Pages,R. K. Fernando,Pearl Academic Press,fiction,FIC-916,10/09/2022,10/10/2022,18/09/2022,No,Yes,Overdue,11,220
+619,faculty,16,World History Overview,James Carter,Campus Publications,history,HIS-680,21/07/2023,20/08/2023,05/08/2023,Yes,Yes,Overdue,12,240
+620,faculty,19,Communication Skills,Peter Clarke,Global Learning House,non-fiction,NF-464,27/06/2022,27/07/2022,02/07/2022,Yes,No,On time,0,0
+621,student,12,Art Through Time,Victor Silva,Northern Books,art,ART-751,02/01/2025,16/01/2025,05/01/2025,Yes,No,On time,0,0
+622,student,17,Chemistry in Daily Life,Prof. David Lee,Campus Publications,science,SCI-407,11/05/2024,25/05/2024,13/05/2024,Yes,No,On time,0,0
+623,faculty,11,Leadership Basics,A. Jayawardena,Pearl Academic Press,non-fiction,NF-532,05/01/2025,04/02/2025,08/01/2025,Yes,No,On time,0,0
+624,faculty,13,Midnight Pages,R. K. Fernando,Northern Books,fiction,FIC-846,03/11/2022,03/12/2022,17/11/2022,No,Yes,Overdue,9,180
+625,student,24,Color and Composition,A. Silva,Global Learning House,art,ART-749,07/12/2024,21/12/2024,11/12/2024,No,No,On time,0,0
+626,student,1,Effective Study Skills,Dr. Helen Morris,Global Learning House,non-fiction,NF-205,07/05/2021,21/05/2021,22/05/2021,No,Yes,Overdue,1,20
+627,staff,6,Principles of Design,Emily Hart,Global Learning House,art,ART-240,15/12/2021,05/01/2022,17/12/2021,No,No,On time,0,0
+628,faculty,9,Ancient Civilizations,Priya Menon,Campus Publications,history,HIS-246,09/03/2024,08/04/2024,23/03/2024,No,Yes,Overdue,10,200
+629,faculty,18,Computer Science Fundamentals,M. Kumar,Northern Books,science,SCI-519,28/07/2020,27/08/2020,12/08/2020,No,Yes,Overdue,12,240
+630,student,13,Midnight Pages,R. K. Fernando,Global Learning House,fiction,FIC-611,23/03/2024,06/04/2024,07/04/2024,No,Yes,Overdue,1,20
+631,staff,17,Chemistry in Daily Life,Prof. David Lee,Campus Publications,science,SCI-187,22/06/2022,13/07/2022,26/06/2022,No,No,On time,0,0
+632,student,10,Learning to Research,Maria Stone,Northern Books,non-fiction,NF-748,06/03/2022,20/03/2022,09/03/2022,No,No,On time,0,0
+633,faculty,5,The Last Letter,Meera Collins,EduWorld Press,fiction,FIC-332,13/05/2020,12/06/2020,14/05/2020,Yes,No,On time,0,0
+634,staff,9,Ancient Civilizations,Priya Menon,Northern Books,history,HIS-646,23/04/2024,14/05/2024,25/04/2024,Yes,No,On time,0,0
+635,staff,21,Island Dreams,S. Wijesinghe,Campus Publications,fiction,FIC-213,17/12/2024,07/01/2025,26/12/2024,No,Yes,Overdue,15,300
+636,staff,24,Color and Composition,A. Silva,Global Learning House,art,ART-584,11/04/2021,02/05/2021,30/04/2021,No,Yes,Overdue,11,220
+637,faculty,21,Island Dreams,S. Wijesinghe,Pearl Academic Press,fiction,FIC-338,14/06/2022,14/07/2022,18/06/2022,Yes,No,On time,0,0
+638,staff,1,Effective Study Skills,Dr. Helen Morris,Pearl Academic Press,non-fiction,NF-145,17/07/2021,07/08/2021,04/08/2021,No,Yes,Overdue,1,20
+639,student,11,Leadership Basics,A. Jayawardena,EduWorld Press,non-fiction,NF-142,22/10/2020,05/11/2020,05/11/2020,Yes,Yes,Overdue,2,40
+640,faculty,7,Earth and Space Science,L. Anderson,Global Learning House,science,SCI-733,18/08/2021,17/09/2021,25/08/2021,Yes,No,On time,0,0
+641,faculty,23,History of Sri Lanka,D. Senanayake,Global Learning House,history,HIS-772,22/08/2020,21/09/2020,30/08/2020,No,Yes,Overdue,5,100
+642,staff,23,History of Sri Lanka,D. Senanayake,Northern Books,history,HIS-722,27/02/2021,20/03/2021,08/03/2021,Yes,Yes,Overdue,16,320
+643,student,3,Modern Asia,Robert Adams,Campus Publications,history,HIS-353,10/03/2025,24/03/2025,25/03/2025,No,Yes,Overdue,1,20
+644,staff,23,History of Sri Lanka,D. Senanayake,EduWorld Press,history,HIS-427,24/04/2024,15/05/2024,25/04/2024,No,No,On time,0,0
+645,staff,25,Beyond the Gate,N. Perera,Global Learning House,fiction,FIC-474,07/11/2022,28/11/2022,17/11/2022,No,Yes,Overdue,1,20
+646,faculty,18,Computer Science Fundamentals,M. Kumar,Pearl Academic Press,science,SCI-899,17/09/2024,17/10/2024,20/09/2024,Yes,No,On time,0,0
+647,staff,21,Island Dreams,S. Wijesinghe,Campus Publications,fiction,FIC-773,21/02/2020,13/03/2020,22/02/2020,Yes,No,On time,0,0
+648,staff,12,Art Through Time,Victor Silva,Campus Publications,art,ART-566,26/01/2022,16/02/2022,15/02/2022,No,Yes,Overdue,5,100
+649,staff,6,Principles of Design,Emily Hart,Pearl Academic Press,art,ART-155,30/05/2023,20/06/2023,19/06/2023,Yes,Yes,Overdue,17,340
+650,student,8,Basics of Biology,Sarah Green,Northern Books,science,SCI-886,12/01/2024,26/01/2024,16/01/2024,Yes,No,On time,0,0
+651,faculty,17,Chemistry in Daily Life,Prof. David Lee,EduWorld Press,science,SCI-152,15/04/2024,15/05/2024,16/04/2024,Yes,No,On time,0,0
+652,faculty,1,Effective Study Skills,Dr. Helen Morris,Global Learning House,non-fiction,NF-465,18/11/2024,18/12/2024,24/11/2024,Yes,No,On time,0,0
+653,faculty,9,Ancient Civilizations,Priya Menon,Campus Publications,history,HIS-691,29/06/2024,29/07/2024,19/07/2024,Yes,Yes,Overdue,9,180
+654,student,19,Communication Skills,Peter Clarke,Pearl Academic Press,non-fiction,NF-674,07/12/2024,21/12/2024,24/12/2024,No,Yes,Overdue,3,60
+655,student,12,Art Through Time,Victor Silva,Pearl Academic Press,art,ART-361,22/12/2021,05/01/2022,02/01/2022,No,Yes,Overdue,19,380
+656,student,11,Leadership Basics,A. Jayawardena,Northern Books,non-fiction,NF-827,07/03/2020,21/03/2020,24/03/2020,Yes,Yes,Overdue,3,60
+657,faculty,25,Beyond the Gate,N. Perera,Northern Books,fiction,FIC-529,15/10/2024,14/11/2024,30/10/2024,Yes,Yes,Overdue,4,80
+658,faculty,22,Cultural Heritage,Latha Raman,Northern Books,history,HIS-614,04/01/2024,03/02/2024,17/01/2024,No,Yes,Overdue,8,160
+659,staff,16,World History Overview,James Carter,Northern Books,history,HIS-365,11/12/2024,01/01/2025,14/12/2024,Yes,No,On time,0,0
+660,student,7,Earth and Space Science,L. Anderson,Northern Books,science,SCI-218,04/04/2022,18/04/2022,14/04/2022,Yes,Yes,Overdue,16,320
+661,staff,3,Modern Asia,Robert Adams,EduWorld Press,history,HIS-818,15/08/2024,05/09/2024,18/08/2024,No,No,On time,0,0
+662,staff,9,Ancient Civilizations,Priya Menon,EduWorld Press,history,HIS-696,30/07/2022,20/08/2022,09/08/2022,Yes,Yes,Overdue,14,280
+663,student,21,Island Dreams,S. Wijesinghe,Campus Publications,fiction,FIC-988,27/08/2022,10/09/2022,05/09/2022,Yes,Yes,Overdue,5,100
+664,staff,14,The Silent River,Anita Rao,Pearl Academic Press,fiction,FIC-140,13/03/2024,03/04/2024,21/03/2024,No,Yes,Overdue,19,380
+665,student,20,Modern Art Guide,Laura King,Northern Books,art,ART-213,23/10/2022,06/11/2022,01/11/2022,No,Yes,Overdue,13,260
+666,student,15,Introduction to Physics,Dr. Alan Reed,Global Learning House,science,SCI-370,27/06/2023,11/07/2023,07/07/2023,Yes,Yes,Overdue,3,60
+667,student,12,Art Through Time,Victor Silva,Global Learning House,art,ART-661,15/12/2022,29/12/2022,18/12/2022,Yes,No,On time,0,0
+668,faculty,24,Color and Composition,A. Silva,Pearl Academic Press,art,ART-974,02/10/2023,01/11/2023,09/10/2023,No,No,On time,0,0
+669,staff,17,Chemistry in Daily Life,Prof. David Lee,EduWorld Press,science,SCI-537,27/07/2024,17/08/2024,08/08/2024,Yes,Yes,Overdue,11,220
+670,faculty,11,Leadership Basics,A. Jayawardena,Northern Books,non-fiction,NF-772,13/03/2022,12/04/2022,29/03/2022,Yes,Yes,Overdue,2,40
+671,faculty,14,The Silent River,Anita Rao,Northern Books,fiction,FIC-240,13/03/2022,12/04/2022,21/03/2022,No,Yes,Overdue,3,60
+672,staff,22,Cultural Heritage,Latha Raman,Global Learning House,history,HIS-554,05/05/2021,26/05/2021,23/05/2021,Yes,Yes,Overdue,12,240
+673,staff,21,Island Dreams,S. Wijesinghe,Pearl Academic Press,fiction,FIC-828,14/04/2025,05/05/2025,26/04/2025,No,Yes,Overdue,17,340
+674,student,11,Leadership Basics,A. Jayawardena,Global Learning House,non-fiction,NF-197,28/08/2023,11/09/2023,02/09/2023,Yes,No,On time,0,0
+675,student,9,Ancient Civilizations,Priya Menon,Northern Books,history,HIS-726,28/09/2020,12/10/2020,10/10/2020,No,Yes,Overdue,17,340
+676,staff,22,Cultural Heritage,Latha Raman,Pearl Academic Press,history,HIS-119,15/03/2023,05/04/2023,30/03/2023,No,Yes,Overdue,19,380
+677,faculty,25,Beyond the Gate,N. Perera,Northern Books,fiction,FIC-109,24/06/2024,24/07/2024,10/07/2024,No,Yes,Overdue,16,320
+678,faculty,22,Cultural Heritage,Latha Raman,Global Learning House,history,HIS-414,18/05/2023,17/06/2023,30/05/2023,Yes,Yes,Overdue,7,140
+679,staff,15,Introduction to Physics,Dr. Alan Reed,Pearl Academic Press,science,SCI-525,20/02/2024,12/03/2024,07/03/2024,Yes,Yes,Overdue,3,60
+680,student,24,Color and Composition,A. Silva,Global Learning House,art,ART-419,28/10/2021,11/11/2021,16/11/2021,Yes,Yes,Overdue,5,100
+681,student,19,Communication Skills,Peter Clarke,EduWorld Press,non-fiction,NF-984,29/06/2024,13/07/2024,15/07/2024,No,Yes,Overdue,2,40
+682,staff,4,Digital Society,Kevin Brown,Campus Publications,non-fiction,NF-416,14/11/2023,05/12/2023,01/12/2023,Yes,Yes,Overdue,11,220
+683,student,25,Beyond the Gate,N. Perera,Campus Publications,fiction,FIC-719,21/07/2024,04/08/2024,06/08/2024,Yes,Yes,Overdue,2,40
+684,staff,11,Leadership Basics,A. Jayawardena,Pearl Academic Press,non-fiction,NF-222,28/11/2020,19/12/2020,06/12/2020,Yes,Yes,Overdue,7,140
+685,staff,3,Modern Asia,Robert Adams,Northern Books,history,HIS-528,07/03/2025,28/03/2025,10/03/2025,Yes,No,On time,0,0
+686,staff,22,Cultural Heritage,Latha Raman,Northern Books,history,HIS-909,22/08/2024,12/09/2024,06/09/2024,Yes,Yes,Overdue,1,20
+687,student,1,Effective Study Skills,Dr. Helen Morris,Campus Publications,non-fiction,NF-105,26/07/2021,09/08/2021,15/08/2021,Yes,Yes,Overdue,6,120
+688,faculty,6,Principles of Design,Emily Hart,Pearl Academic Press,art,ART-320,21/01/2025,20/02/2025,02/02/2025,No,Yes,Overdue,11,220
+689,student,10,Learning to Research,Maria Stone,Pearl Academic Press,non-fiction,NF-498,15/02/2022,01/03/2022,17/02/2022,Yes,No,On time,0,0
+690,staff,4,Digital Society,Kevin Brown,Pearl Academic Press,non-fiction,NF-991,22/06/2020,13/07/2020,09/07/2020,Yes,Yes,Overdue,19,380
+691,staff,6,Principles of Design,Emily Hart,Northern Books,art,ART-985,26/09/2021,17/10/2021,08/10/2021,Yes,Yes,Overdue,17,340
+692,student,3,Modern Asia,Robert Adams,Campus Publications,history,HIS-958,15/04/2022,29/04/2022,01/05/2022,No,Yes,Overdue,2,40
+693,staff,16,World History Overview,James Carter,Pearl Academic Press,history,HIS-695,12/09/2023,03/10/2023,19/09/2023,Yes,No,On time,0,0
+694,staff,5,The Last Letter,Meera Collins,Northern Books,fiction,FIC-137,07/01/2023,28/01/2023,21/01/2023,Yes,Yes,Overdue,4,80
+695,faculty,23,History of Sri Lanka,D. Senanayake,Campus Publications,history,HIS-582,23/05/2022,22/06/2022,27/05/2022,No,No,On time,0,0
+696,student,24,Color and Composition,A. Silva,Pearl Academic Press,art,ART-404,30/11/2023,14/12/2023,09/12/2023,Yes,Yes,Overdue,3,60
+697,staff,24,Color and Composition,A. Silva,Pearl Academic Press,art,ART-179,14/08/2022,04/09/2022,26/08/2022,Yes,Yes,Overdue,13,260
+698,student,17,Chemistry in Daily Life,Prof. David Lee,Campus Publications,science,SCI-492,14/02/2022,28/02/2022,23/02/2022,Yes,Yes,Overdue,5,100
+699,student,9,Ancient Civilizations,Priya Menon,Pearl Academic Press,history,HIS-931,19/03/2025,02/04/2025,01/04/2025,No,Yes,Overdue,19,380
+700,faculty,11,Leadership Basics,A. Jayawardena,Northern Books,non-fiction,NF-952,30/08/2020,29/09/2020,01/09/2020,Yes,No,On time,0,0
+701,staff,4,Digital Society,Kevin Brown,Global Learning House,non-fiction,NF-426,31/03/2022,21/04/2022,06/04/2022,Yes,No,On time,0,0
+702,faculty,5,The Last Letter,Meera Collins,Northern Books,fiction,FIC-657,07/01/2021,06/02/2021,14/01/2021,Yes,No,On time,0,0
+703,student,21,Island Dreams,S. Wijesinghe,Northern Books,fiction,FIC-578,13/12/2022,27/12/2022,14/12/2022,Yes,No,On time,0,0
+704,staff,11,Leadership Basics,A. Jayawardena,Global Learning House,non-fiction,NF-362,11/09/2020,02/10/2020,01/10/2020,No,Yes,Overdue,15,300
+705,faculty,12,Art Through Time,Victor Silva,Campus Publications,art,ART-716,31/08/2024,30/09/2024,06/09/2024,No,No,On time,0,0
+706,student,7,Earth and Space Science,L. Anderson,Global Learning House,science,SCI-303,05/05/2023,19/05/2023,20/05/2023,No,Yes,Overdue,1,20
+707,faculty,10,Learning to Research,Maria Stone,Campus Publications,non-fiction,NF-468,31/01/2020,01/03/2020,20/02/2020,No,Yes,Overdue,17,340
+708,faculty,14,The Silent River,Anita Rao,EduWorld Press,fiction,FIC-685,03/03/2023,02/04/2023,23/03/2023,Yes,Yes,Overdue,4,80
+709,faculty,2,Creative Drawing,Nisha Raj,Northern Books,art,ART-807,13/02/2025,15/03/2025,03/03/2025,No,Yes,Overdue,9,180
+710,staff,8,Basics of Biology,Sarah Green,Global Learning House,science,SCI-421,13/10/2020,03/11/2020,31/10/2020,Yes,Yes,Overdue,12,240
+711,staff,21,Island Dreams,S. Wijesinghe,Northern Books,fiction,FIC-218,24/10/2020,14/11/2020,10/11/2020,No,Yes,Overdue,8,160
+712,staff,5,The Last Letter,Meera Collins,Global Learning House,fiction,FIC-432,28/02/2021,21/03/2021,04/03/2021,No,No,On time,0,0
+713,faculty,6,Principles of Design,Emily Hart,EduWorld Press,art,ART-450,19/05/2023,18/06/2023,07/06/2023,Yes,Yes,Overdue,3,60
+714,staff,12,Art Through Time,Victor Silva,Global Learning House,art,ART-746,22/01/2021,12/02/2021,25/01/2021,No,No,On time,0,0
+715,staff,25,Beyond the Gate,N. Perera,EduWorld Press,fiction,FIC-384,25/03/2020,15/04/2020,08/04/2020,No,Yes,Overdue,6,120
+716,faculty,20,Modern Art Guide,Laura King,EduWorld Press,art,ART-418,14/08/2021,13/09/2021,19/08/2021,No,No,On time,0,0
+717,student,8,Basics of Biology,Sarah Green,Pearl Academic Press,science,SCI-116,17/05/2021,31/05/2021,23/05/2021,No,No,On time,0,0
+718,staff,21,Island Dreams,S. Wijesinghe,Pearl Academic Press,fiction,FIC-318,28/07/2023,18/08/2023,14/08/2023,Yes,Yes,Overdue,16,320
+719,student,16,World History Overview,James Carter,Campus Publications,history,HIS-370,13/04/2025,27/04/2025,14/04/2025,Yes,No,On time,0,0
+720,faculty,17,Chemistry in Daily Life,Prof. David Lee,EduWorld Press,science,SCI-302,17/04/2023,17/05/2023,01/05/2023,No,Yes,Overdue,1,20
+721,staff,21,Island Dreams,S. Wijesinghe,Pearl Academic Press,fiction,FIC-128,24/03/2025,14/04/2025,25/03/2025,Yes,No,On time,0,0
+722,faculty,9,Ancient Civilizations,Priya Menon,Global Learning House,history,HIS-191,12/11/2022,12/12/2022,18/11/2022,No,No,On time,0,0
+723,student,6,Principles of Design,Emily Hart,EduWorld Press,art,ART-625,16/10/2022,30/10/2022,19/10/2022,No,No,On time,0,0
+724,staff,12,Art Through Time,Victor Silva,Global Learning House,art,ART-351,22/06/2022,13/07/2022,04/07/2022,No,Yes,Overdue,1,20
+725,faculty,25,Beyond the Gate,N. Perera,Global Learning House,fiction,FIC-974,03/03/2024,02/04/2024,16/03/2024,No,Yes,Overdue,7,140
+726,faculty,22,Cultural Heritage,Latha Raman,Northern Books,history,HIS-849,20/03/2022,19/04/2022,22/03/2022,Yes,No,On time,0,0
+727,student,15,Introduction to Physics,Dr. Alan Reed,Northern Books,science,SCI-570,25/01/2023,08/02/2023,05/02/2023,Yes,Yes,Overdue,8,160
+728,faculty,24,Color and Composition,A. Silva,EduWorld Press,art,ART-134,25/01/2020,24/02/2020,07/02/2020,No,Yes,Overdue,17,340
+729,student,2,Creative Drawing,Nisha Raj,Northern Books,art,ART-797,11/08/2021,25/08/2021,22/08/2021,Yes,Yes,Overdue,13,260
+730,student,13,Midnight Pages,R. K. Fernando,Global Learning House,fiction,FIC-411,21/11/2022,05/12/2022,24/11/2022,No,No,On time,0,0
+731,staff,1,Effective Study Skills,Dr. Helen Morris,EduWorld Press,non-fiction,NF-260,28/09/2021,19/10/2021,06/10/2021,No,Yes,Overdue,5,100
+732,staff,4,Digital Society,Kevin Brown,Campus Publications,non-fiction,NF-341,28/05/2022,18/06/2022,08/06/2022,Yes,Yes,Overdue,15,300
+733,student,15,Introduction to Physics,Dr. Alan Reed,Global Learning House,science,SCI-430,06/12/2023,20/12/2023,09/12/2023,No,No,On time,0,0
+734,student,8,Basics of Biology,Sarah Green,Northern Books,science,SCI-976,14/08/2021,28/08/2021,21/08/2021,No,No,On time,0,0
+735,faculty,19,Communication Skills,Peter Clarke,Campus Publications,non-fiction,NF-559,04/01/2020,03/02/2020,09/01/2020,No,No,On time,0,0
+736,faculty,20,Modern Art Guide,Laura King,Global Learning House,art,ART-498,17/12/2021,16/01/2022,25/12/2021,No,Yes,Overdue,19,380
+737,staff,12,Art Through Time,Victor Silva,Campus Publications,art,ART-931,18/12/2021,08/01/2022,24/12/2021,No,No,On time,0,0
+738,faculty,12,Art Through Time,Victor Silva,EduWorld Press,art,ART-496,28/11/2020,28/12/2020,05/12/2020,No,No,On time,0,0
+739,student,11,Leadership Basics,A. Jayawardena,Campus Publications,non-fiction,NF-962,01/02/2023,15/02/2023,17/02/2023,Yes,Yes,Overdue,2,40
+740,faculty,10,Learning to Research,Maria Stone,Campus Publications,non-fiction,NF-403,21/01/2020,20/02/2020,29/01/2020,No,Yes,Overdue,14,280
+741,staff,9,Ancient Civilizations,Priya Menon,Global Learning House,history,HIS-536,21/05/2020,11/06/2020,10/06/2020,No,Yes,Overdue,1,20
+742,staff,23,History of Sri Lanka,D. Senanayake,Global Learning House,history,HIS-702,07/09/2020,28/09/2020,14/09/2020,No,No,On time,0,0
+743,faculty,4,Digital Society,Kevin Brown,Campus Publications,non-fiction,NF-351,14/03/2020,13/04/2020,22/03/2020,Yes,Yes,Overdue,14,280
+744,student,3,Modern Asia,Robert Adams,Pearl Academic Press,history,HIS-188,30/01/2021,13/02/2021,31/01/2021,Yes,No,On time,0,0
+745,faculty,15,Introduction to Physics,Dr. Alan Reed,Pearl Academic Press,science,SCI-625,26/10/2024,25/11/2024,11/11/2024,Yes,Yes,Overdue,12,240
+746,faculty,3,Modern Asia,Robert Adams,Global Learning House,history,HIS-468,27/06/2022,27/07/2022,29/06/2022,Yes,No,On time,0,0
+747,student,19,Communication Skills,Peter Clarke,EduWorld Press,non-fiction,NF-684,13/11/2023,27/11/2023,14/11/2023,Yes,No,On time,0,0
+748,student,9,Ancient Civilizations,Priya Menon,Northern Books,history,HIS-221,12/03/2023,26/03/2023,19/03/2023,Yes,No,On time,0,0
+749,faculty,17,Chemistry in Daily Life,Prof. David Lee,Campus Publications,science,SCI-697,02/09/2022,02/10/2022,22/09/2022,Yes,Yes,Overdue,8,160
+750,faculty,25,Beyond the Gate,N. Perera,Global Learning House,fiction,FIC-514,07/04/2020,07/05/2020,14/04/2020,Yes,No,On time,0,0
+751,faculty,9,Ancient Civilizations,Priya Menon,Pearl Academic Press,history,HIS-951,21/09/2023,21/10/2023,02/10/2023,Yes,Yes,Overdue,6,120
+752,staff,11,Leadership Basics,A. Jayawardena,Pearl Academic Press,non-fiction,NF-517,25/08/2022,15/09/2022,02/09/2022,No,Yes,Overdue,13,260
+753,faculty,24,Color and Composition,A. Silva,EduWorld Press,art,ART-744,03/11/2023,03/12/2023,18/11/2023,No,Yes,Overdue,17,340
+754,staff,10,Learning to Research,Maria Stone,Northern Books,non-fiction,NF-538,01/03/2025,22/03/2025,11/03/2025,Yes,Yes,Overdue,16,320
+755,staff,24,Color and Composition,A. Silva,Global Learning House,art,ART-884,18/09/2022,09/10/2022,25/09/2022,Yes,No,On time,0,0
+756,staff,25,Beyond the Gate,N. Perera,EduWorld Press,fiction,FIC-754,29/08/2020,19/09/2020,09/09/2020,Yes,Yes,Overdue,8,160
+757,student,9,Ancient Civilizations,Priya Menon,Pearl Academic Press,history,HIS-481,05/07/2022,19/07/2022,18/07/2022,Yes,Yes,Overdue,16,320
+758,staff,3,Modern Asia,Robert Adams,Northern Books,history,HIS-268,27/07/2020,17/08/2020,15/08/2020,No,Yes,Overdue,14,280
+759,faculty,23,History of Sri Lanka,D. Senanayake,Campus Publications,history,HIS-382,19/06/2024,19/07/2024,21/06/2024,No,No,On time,0,0
+760,staff,1,Effective Study Skills,Dr. Helen Morris,Global Learning House,non-fiction,NF-170,25/09/2024,16/10/2024,12/10/2024,Yes,Yes,Overdue,13,260
+761,faculty,16,World History Overview,James Carter,Northern Books,history,HIS-995,15/04/2022,15/05/2022,03/05/2022,No,Yes,Overdue,8,160
+762,faculty,20,Modern Art Guide,Laura King,Campus Publications,art,ART-558,21/05/2024,20/06/2024,02/06/2024,Yes,Yes,Overdue,15,300
+763,faculty,15,Introduction to Physics,Dr. Alan Reed,Pearl Academic Press,science,SCI-990,03/02/2022,05/03/2022,08/02/2022,Yes,No,On time,0,0
+764,faculty,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-732,22/10/2020,21/11/2020,03/11/2020,No,Yes,Overdue,18,360
+765,staff,8,Basics of Biology,Sarah Green,Campus Publications,science,SCI-341,28/08/2022,18/09/2022,11/09/2022,Yes,Yes,Overdue,9,180
+766,staff,22,Cultural Heritage,Latha Raman,EduWorld Press,history,HIS-104,10/08/2020,31/08/2020,14/08/2020,No,No,On time,0,0
+767,student,18,Computer Science Fundamentals,M. Kumar,EduWorld Press,science,SCI-664,12/01/2021,26/01/2021,26/01/2021,Yes,Yes,Overdue,15,300
+768,student,22,Cultural Heritage,Latha Raman,Pearl Academic Press,history,HIS-989,16/06/2024,30/06/2024,19/06/2024,No,No,On time,0,0
+769,faculty,3,Modern Asia,Robert Adams,EduWorld Press,history,HIS-803,04/12/2020,03/01/2021,20/12/2020,No,Yes,Overdue,10,200
+770,faculty,10,Learning to Research,Maria Stone,Northern Books,non-fiction,NF-598,07/08/2022,06/09/2022,16/08/2022,No,Yes,Overdue,3,60
+771,faculty,11,Leadership Basics,A. Jayawardena,Global Learning House,non-fiction,NF-982,20/07/2021,19/08/2021,28/07/2021,Yes,Yes,Overdue,1,20
+772,student,9,Ancient Civilizations,Priya Menon,Northern Books,history,HIS-906,19/01/2020,02/02/2020,29/01/2020,No,Yes,Overdue,4,80
+773,student,25,Beyond the Gate,N. Perera,Global Learning House,fiction,FIC-759,28/11/2020,12/12/2020,03/12/2020,No,No,On time,0,0
+774,faculty,13,Midnight Pages,R. K. Fernando,Pearl Academic Press,fiction,FIC-846,20/03/2024,19/04/2024,29/03/2024,No,Yes,Overdue,16,320
+775,staff,2,Creative Drawing,Nisha Raj,Northern Books,art,ART-757,23/09/2020,14/10/2020,24/09/2020,No,No,On time,0,0
+776,student,12,Art Through Time,Victor Silva,EduWorld Press,art,ART-381,24/01/2020,07/02/2020,13/02/2020,Yes,Yes,Overdue,6,120
+777,staff,10,Learning to Research,Maria Stone,Campus Publications,non-fiction,NF-208,26/02/2020,18/03/2020,01/03/2020,Yes,No,On time,0,0
+778,faculty,19,Communication Skills,Peter Clarke,EduWorld Press,non-fiction,NF-514,21/04/2023,21/05/2023,03/05/2023,No,Yes,Overdue,12,240
+779,student,21,Island Dreams,S. Wijesinghe,Campus Publications,fiction,FIC-663,05/11/2024,19/11/2024,16/11/2024,Yes,Yes,Overdue,4,80
+780,student,23,History of Sri Lanka,D. Senanayake,Northern Books,history,HIS-247,12/05/2021,26/05/2021,13/05/2021,No,No,On time,0,0
+781,student,8,Basics of Biology,Sarah Green,Pearl Academic Press,science,SCI-846,05/07/2023,19/07/2023,20/07/2023,No,Yes,Overdue,1,20
+782,staff,19,Communication Skills,Peter Clarke,Northern Books,non-fiction,NF-854,31/10/2023,21/11/2023,02/11/2023,Yes,No,On time,0,0
+783,staff,3,Modern Asia,Robert Adams,EduWorld Press,history,HIS-738,09/10/2022,30/10/2022,23/10/2022,No,Yes,Overdue,9,180
+784,faculty,15,Introduction to Physics,Dr. Alan Reed,Northern Books,science,SCI-545,23/01/2024,22/02/2024,01/02/2024,Yes,Yes,Overdue,4,80
+785,staff,5,The Last Letter,Meera Collins,Northern Books,fiction,FIC-887,04/10/2022,25/10/2022,11/10/2022,Yes,No,On time,0,0
+786,staff,5,The Last Letter,Meera Collins,Campus Publications,fiction,FIC-232,26/09/2021,17/10/2021,06/10/2021,Yes,Yes,Overdue,17,340
+787,staff,20,Modern Art Guide,Laura King,Northern Books,art,ART-768,03/09/2024,24/09/2024,06/09/2024,Yes,No,On time,0,0
+788,faculty,21,Island Dreams,S. Wijesinghe,Campus Publications,fiction,FIC-558,13/02/2022,15/03/2022,28/02/2022,Yes,Yes,Overdue,13,260
+789,student,4,Digital Society,Kevin Brown,EduWorld Press,non-fiction,NF-296,11/01/2025,25/01/2025,17/01/2025,Yes,No,On time,0,0
+790,student,4,Digital Society,Kevin Brown,Northern Books,non-fiction,NF-446,04/01/2021,18/01/2021,07/01/2021,No,No,On time,0,0
+791,staff,9,Ancient Civilizations,Priya Menon,Global Learning House,history,HIS-156,07/12/2021,28/12/2021,19/12/2021,No,Yes,Overdue,17,340
+792,student,15,Introduction to Physics,Dr. Alan Reed,Pearl Academic Press,science,SCI-295,23/06/2021,07/07/2021,01/07/2021,No,Yes,Overdue,6,120
+793,staff,21,Island Dreams,S. Wijesinghe,EduWorld Press,fiction,FIC-288,14/06/2022,05/07/2022,20/06/2022,No,No,On time,0,0
+794,staff,12,Art Through Time,Victor Silva,Northern Books,art,ART-511,24/05/2020,14/06/2020,26/05/2020,Yes,No,On time,0,0
+795,staff,2,Creative Drawing,Nisha Raj,Pearl Academic Press,art,ART-192,15/01/2021,05/02/2021,30/01/2021,No,Yes,Overdue,3,60
+796,student,17,Chemistry in Daily Life,Prof. David Lee,Campus Publications,science,SCI-122,31/05/2022,14/06/2022,03/06/2022,Yes,No,On time,0,0
+797,student,18,Computer Science Fundamentals,M. Kumar,Campus Publications,science,SCI-819,09/02/2025,23/02/2025,01/03/2025,No,Yes,Overdue,6,120
+798,faculty,4,Digital Society,Kevin Brown,Pearl Academic Press,non-fiction,NF-741,19/01/2021,18/02/2021,26/01/2021,Yes,No,On time,0,0
+799,faculty,25,Beyond the Gate,N. Perera,Northern Books,fiction,FIC-399,21/12/2023,20/01/2024,07/01/2024,No,Yes,Overdue,3,60
+800,faculty,25,Beyond the Gate,N. Perera,Pearl Academic Press,fiction,FIC-814,23/11/2024,23/12/2024,11/12/2024,Yes,Yes,Overdue,17,340
+801,staff,6,Principles of Design,Emily Hart,Campus Publications,art,ART-655,14/03/2023,04/04/2023,23/03/2023,No,Yes,Overdue,1,20
+802,staff,3,Modern Asia,Robert Adams,EduWorld Press,history,HIS-178,19/01/2024,09/02/2024,31/01/2024,No,Yes,Overdue,7,140
+803,faculty,20,Modern Art Guide,Laura King,Pearl Academic Press,art,ART-483,07/08/2023,06/09/2023,23/08/2023,No,Yes,Overdue,2,40
+804,student,8,Basics of Biology,Sarah Green,Pearl Academic Press,science,SCI-541,03/11/2022,17/11/2022,11/11/2022,No,Yes,Overdue,13,260
+805,faculty,25,Beyond the Gate,N. Perera,Pearl Academic Press,fiction,FIC-344,24/07/2022,23/08/2022,30/07/2022,No,No,On time,0,0
+806,faculty,13,Midnight Pages,R. K. Fernando,Campus Publications,fiction,FIC-836,18/08/2023,17/09/2023,29/08/2023,Yes,Yes,Overdue,7,140
+807,staff,19,Communication Skills,Peter Clarke,Northern Books,non-fiction,NF-549,01/09/2024,22/09/2024,21/09/2024,Yes,Yes,Overdue,3,60
+808,staff,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-712,24/03/2022,14/04/2022,26/03/2022,No,No,On time,0,0
+809,faculty,20,Modern Art Guide,Laura King,Pearl Academic Press,art,ART-493,17/09/2023,17/10/2023,01/10/2023,Yes,Yes,Overdue,9,180
+810,faculty,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-861,07/08/2022,06/09/2022,14/08/2022,Yes,No,On time,0,0
+811,staff,17,Chemistry in Daily Life,Prof. David Lee,Northern Books,science,SCI-382,12/03/2020,02/04/2020,21/03/2020,No,Yes,Overdue,20,400
+812,student,10,Learning to Research,Maria Stone,Northern Books,non-fiction,NF-883,27/11/2023,11/12/2023,02/12/2023,Yes,No,On time,0,0
+813,student,22,Cultural Heritage,Latha Raman,Northern Books,history,HIS-234,01/11/2020,15/11/2020,20/11/2020,Yes,Yes,Overdue,5,100
+814,student,6,Principles of Design,Emily Hart,Pearl Academic Press,art,ART-430,21/05/2024,04/06/2024,09/06/2024,Yes,Yes,Overdue,5,100
+815,student,18,Computer Science Fundamentals,M. Kumar,Pearl Academic Press,science,SCI-609,14/11/2021,28/11/2021,16/11/2021,Yes,No,On time,0,0
+816,staff,4,Digital Society,Kevin Brown,Pearl Academic Press,non-fiction,NF-466,17/03/2021,07/04/2021,25/03/2021,Yes,Yes,Overdue,2,40
+817,faculty,16,World History Overview,James Carter,Pearl Academic Press,history,HIS-555,14/03/2021,13/04/2021,23/03/2021,No,Yes,Overdue,18,360
+818,student,16,World History Overview,James Carter,Global Learning House,history,HIS-570,10/10/2024,24/10/2024,27/10/2024,No,Yes,Overdue,3,60
+819,faculty,16,World History Overview,James Carter,Global Learning House,history,HIS-535,24/11/2022,24/12/2022,08/12/2022,No,Yes,Overdue,9,180
+820,staff,1,Effective Study Skills,Dr. Helen Morris,Northern Books,non-fiction,NF-865,31/01/2020,21/02/2020,01/02/2020,No,No,On time,0,0
+821,student,25,Beyond the Gate,N. Perera,Global Learning House,fiction,FIC-854,20/09/2024,04/10/2024,08/10/2024,No,Yes,Overdue,4,80
+822,student,10,Learning to Research,Maria Stone,Pearl Academic Press,non-fiction,NF-758,26/03/2025,09/04/2025,09/04/2025,Yes,Yes,Overdue,11,220
+823,student,20,Modern Art Guide,Laura King,EduWorld Press,art,ART-193,22/12/2021,05/01/2022,10/01/2022,No,Yes,Overdue,5,100
+824,faculty,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-377,25/06/2021,25/07/2021,29/06/2021,No,No,On time,0,0
+825,staff,22,Cultural Heritage,Latha Raman,Global Learning House,history,HIS-329,24/05/2020,14/06/2020,08/06/2020,Yes,Yes,Overdue,12,240
+826,student,21,Island Dreams,S. Wijesinghe,EduWorld Press,fiction,FIC-988,10/09/2023,24/09/2023,17/09/2023,No,No,On time,0,0
+827,student,9,Ancient Civilizations,Priya Menon,Campus Publications,history,HIS-426,09/06/2024,23/06/2024,12/06/2024,No,No,On time,0,0
+828,faculty,18,Computer Science Fundamentals,M. Kumar,Northern Books,science,SCI-184,02/02/2022,04/03/2022,14/02/2022,No,Yes,Overdue,9,180
+829,staff,12,Art Through Time,Victor Silva,Campus Publications,art,ART-256,12/05/2024,02/06/2024,21/05/2024,Yes,Yes,Overdue,6,120
+830,student,17,Chemistry in Daily Life,Prof. David Lee,Northern Books,science,SCI-842,06/10/2023,20/10/2023,19/10/2023,No,Yes,Overdue,19,380
+831,staff,23,History of Sri Lanka,D. Senanayake,EduWorld Press,history,HIS-477,14/06/2023,05/07/2023,20/06/2023,No,No,On time,0,0
+832,staff,16,World History Overview,James Carter,Campus Publications,history,HIS-620,21/12/2020,11/01/2021,05/01/2021,Yes,Yes,Overdue,14,280
+833,staff,25,Beyond the Gate,N. Perera,Pearl Academic Press,fiction,FIC-524,05/11/2021,26/11/2021,24/11/2021,Yes,Yes,Overdue,17,340
+834,staff,24,Color and Composition,A. Silva,Campus Publications,art,ART-974,14/05/2023,04/06/2023,03/06/2023,Yes,Yes,Overdue,17,340
+835,staff,24,Color and Composition,A. Silva,Campus Publications,art,ART-194,05/09/2020,26/09/2020,21/09/2020,Yes,Yes,Overdue,14,280
+836,student,10,Learning to Research,Maria Stone,Pearl Academic Press,non-fiction,NF-583,09/12/2021,23/12/2021,12/12/2021,Yes,No,On time,0,0
+837,student,9,Ancient Civilizations,Priya Menon,Northern Books,history,HIS-271,22/02/2020,07/03/2020,07/03/2020,No,Yes,Overdue,4,80
+838,student,9,Ancient Civilizations,Priya Menon,Pearl Academic Press,history,HIS-251,06/11/2021,20/11/2021,23/11/2021,Yes,Yes,Overdue,3,60
+839,student,12,Art Through Time,Victor Silva,EduWorld Press,art,ART-421,26/10/2021,09/11/2021,01/11/2021,Yes,No,On time,0,0
+840,staff,13,Midnight Pages,R. K. Fernando,EduWorld Press,fiction,FIC-406,06/06/2022,27/06/2022,13/06/2022,No,No,On time,0,0
+841,faculty,9,Ancient Civilizations,Priya Menon,EduWorld Press,history,HIS-456,02/02/2023,04/03/2023,09/02/2023,No,No,On time,0,0
+842,staff,10,Learning to Research,Maria Stone,Campus Publications,non-fiction,NF-853,03/01/2021,24/01/2021,19/01/2021,Yes,Yes,Overdue,13,260
+843,staff,2,Creative Drawing,Nisha Raj,Northern Books,art,ART-527,25/04/2020,16/05/2020,10/05/2020,No,Yes,Overdue,5,100
+844,staff,16,World History Overview,James Carter,Pearl Academic Press,history,HIS-860,01/04/2020,22/04/2020,17/04/2020,Yes,Yes,Overdue,18,360
+845,staff,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-565,05/08/2024,26/08/2024,20/08/2024,Yes,Yes,Overdue,11,220
+846,student,19,Communication Skills,Peter Clarke,Global Learning House,non-fiction,NF-584,06/04/2023,20/04/2023,10/04/2023,No,No,On time,0,0
+847,student,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-800,08/05/2023,22/05/2023,21/05/2023,No,Yes,Overdue,2,40
+848,faculty,16,World History Overview,James Carter,Northern Books,history,HIS-765,01/03/2021,31/03/2021,03/03/2021,No,No,On time,0,0
+849,faculty,21,Island Dreams,S. Wijesinghe,EduWorld Press,fiction,FIC-468,25/12/2024,24/01/2025,10/01/2025,Yes,Yes,Overdue,7,140
+850,staff,22,Cultural Heritage,Latha Raman,Pearl Academic Press,history,HIS-629,27/01/2024,17/02/2024,04/02/2024,Yes,Yes,Overdue,19,380
+851,student,24,Color and Composition,A. Silva,Global Learning House,art,ART-914,23/11/2023,07/12/2023,02/12/2023,Yes,Yes,Overdue,11,220
+852,staff,6,Principles of Design,Emily Hart,Pearl Academic Press,art,ART-710,15/09/2022,06/10/2022,26/09/2022,Yes,Yes,Overdue,6,120
+853,faculty,19,Communication Skills,Peter Clarke,Global Learning House,non-fiction,NF-659,22/06/2024,22/07/2024,11/07/2024,Yes,Yes,Overdue,17,340
+854,staff,20,Modern Art Guide,Laura King,Campus Publications,art,ART-273,05/04/2025,26/04/2025,07/04/2025,No,No,On time,0,0
+855,faculty,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-261,18/04/2020,18/05/2020,21/04/2020,Yes,No,On time,0,0
+856,staff,4,Digital Society,Kevin Brown,EduWorld Press,non-fiction,NF-331,12/10/2022,02/11/2022,29/10/2022,Yes,Yes,Overdue,9,180
+857,student,4,Digital Society,Kevin Brown,Northern Books,non-fiction,NF-891,12/05/2022,26/05/2022,23/05/2022,No,Yes,Overdue,12,240
+858,staff,2,Creative Drawing,Nisha Raj,EduWorld Press,art,ART-547,23/11/2024,14/12/2024,08/12/2024,No,Yes,Overdue,3,60
+859,staff,22,Cultural Heritage,Latha Raman,Northern Books,history,HIS-134,21/07/2021,11/08/2021,28/07/2021,No,No,On time,0,0
+860,staff,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-916,11/12/2022,01/01/2023,22/12/2022,No,Yes,Overdue,14,280
+861,staff,19,Communication Skills,Peter Clarke,Pearl Academic Press,non-fiction,NF-214,20/04/2024,11/05/2024,23/04/2024,Yes,No,On time,0,0
+862,faculty,18,Computer Science Fundamentals,M. Kumar,Campus Publications,science,SCI-499,18/07/2022,17/08/2022,01/08/2022,Yes,Yes,Overdue,18,360
+863,student,1,Effective Study Skills,Dr. Helen Morris,EduWorld Press,non-fiction,NF-525,06/07/2023,20/07/2023,16/07/2023,No,Yes,Overdue,5,100
+864,student,12,Art Through Time,Victor Silva,Northern Books,art,ART-991,24/04/2022,08/05/2022,01/05/2022,No,No,On time,0,0
+865,student,8,Basics of Biology,Sarah Green,Global Learning House,science,SCI-246,05/11/2021,19/11/2021,10/11/2021,Yes,No,On time,0,0
+866,staff,2,Creative Drawing,Nisha Raj,Northern Books,art,ART-842,18/06/2024,09/07/2024,08/07/2024,Yes,Yes,Overdue,2,40
+867,student,8,Basics of Biology,Sarah Green,Campus Publications,science,SCI-981,05/05/2023,19/05/2023,06/05/2023,No,No,On time,0,0
+868,faculty,14,The Silent River,Anita Rao,Global Learning House,fiction,FIC-405,11/05/2022,10/06/2022,17/05/2022,No,No,On time,0,0
+869,student,9,Ancient Civilizations,Priya Menon,EduWorld Press,history,HIS-641,12/10/2023,26/10/2023,15/10/2023,Yes,No,On time,0,0
+870,staff,9,Ancient Civilizations,Priya Menon,Campus Publications,history,HIS-166,31/12/2023,21/01/2024,08/01/2024,No,Yes,Overdue,9,180
+871,student,19,Communication Skills,Peter Clarke,Global Learning House,non-fiction,NF-789,26/03/2023,09/04/2023,31/03/2023,Yes,No,On time,0,0
+872,staff,12,Art Through Time,Victor Silva,Northern Books,art,ART-256,06/11/2024,27/11/2024,20/11/2024,Yes,Yes,Overdue,3,60
+873,staff,11,Leadership Basics,A. Jayawardena,Pearl Academic Press,non-fiction,NF-212,08/06/2020,29/06/2020,17/06/2020,No,Yes,Overdue,4,80
+874,faculty,23,History of Sri Lanka,D. Senanayake,Pearl Academic Press,history,HIS-267,25/11/2020,25/12/2020,27/11/2020,No,No,On time,0,0
+875,faculty,18,Computer Science Fundamentals,M. Kumar,Pearl Academic Press,science,SCI-179,01/04/2020,01/05/2020,03/04/2020,Yes,No,On time,0,0
+876,student,1,Effective Study Skills,Dr. Helen Morris,Pearl Academic Press,non-fiction,NF-675,16/02/2021,02/03/2021,26/02/2021,No,Yes,Overdue,12,240
+877,staff,13,Midnight Pages,R. K. Fernando,EduWorld Press,fiction,FIC-836,02/10/2023,23/10/2023,11/10/2023,No,Yes,Overdue,8,160
+878,faculty,3,Modern Asia,Robert Adams,Pearl Academic Press,history,HIS-803,27/04/2024,27/05/2024,28/04/2024,No,No,On time,0,0
+879,staff,6,Principles of Design,Emily Hart,Campus Publications,art,ART-250,06/03/2020,27/03/2020,21/03/2020,Yes,Yes,Overdue,18,360
+880,student,22,Cultural Heritage,Latha Raman,Campus Publications,history,HIS-564,12/12/2021,26/12/2021,14/12/2021,Yes,No,On time,0,0
+881,staff,18,Computer Science Fundamentals,M. Kumar,Campus Publications,science,SCI-474,17/10/2024,07/11/2024,27/10/2024,No,Yes,Overdue,15,300
+882,staff,5,The Last Letter,Meera Collins,Campus Publications,fiction,FIC-802,09/05/2021,30/05/2021,21/05/2021,Yes,Yes,Overdue,2,40
+883,faculty,9,Ancient Civilizations,Priya Menon,Pearl Academic Press,history,HIS-146,27/04/2023,27/05/2023,15/05/2023,Yes,Yes,Overdue,16,320
+884,staff,21,Island Dreams,S. Wijesinghe,Global Learning House,fiction,FIC-968,18/11/2020,09/12/2020,25/11/2020,Yes,No,On time,0,0
+885,faculty,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-685,01/01/2023,31/01/2023,12/01/2023,No,Yes,Overdue,17,340
+886,student,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-986,03/08/2021,17/08/2021,16/08/2021,Yes,Yes,Overdue,13,260
+887,student,14,The Silent River,Anita Rao,Northern Books,fiction,FIC-965,28/11/2024,12/12/2024,16/12/2024,Yes,Yes,Overdue,4,80
+888,staff,9,Ancient Civilizations,Priya Menon,Global Learning House,history,HIS-281,20/02/2025,13/03/2025,03/03/2025,No,Yes,Overdue,4,80
+889,staff,7,Earth and Space Science,L. Anderson,Global Learning House,science,SCI-688,29/01/2023,19/02/2023,17/02/2023,Yes,Yes,Overdue,1,20
+890,faculty,9,Ancient Civilizations,Priya Menon,Northern Books,history,HIS-716,21/04/2023,21/05/2023,25/04/2023,Yes,No,On time,0,0
+891,student,25,Beyond the Gate,N. Perera,Pearl Academic Press,fiction,FIC-959,05/11/2022,19/11/2022,06/11/2022,No,No,On time,0,0
+892,staff,19,Communication Skills,Peter Clarke,Campus Publications,non-fiction,NF-654,07/08/2020,28/08/2020,19/08/2020,Yes,Yes,Overdue,4,80
+893,student,24,Color and Composition,A. Silva,EduWorld Press,art,ART-359,23/04/2024,07/05/2024,29/04/2024,Yes,No,On time,0,0
+894,staff,24,Color and Composition,A. Silva,Pearl Academic Press,art,ART-304,03/03/2022,24/03/2022,14/03/2022,No,Yes,Overdue,11,220
+895,faculty,3,Modern Asia,Robert Adams,Pearl Academic Press,history,HIS-868,17/09/2022,17/10/2022,24/09/2022,No,No,On time,0,0
+896,faculty,8,Basics of Biology,Sarah Green,Pearl Academic Press,science,SCI-741,22/09/2021,22/10/2021,04/10/2021,No,Yes,Overdue,11,220
+897,faculty,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-585,24/12/2022,23/01/2023,04/01/2023,No,Yes,Overdue,11,220
+898,student,24,Color and Composition,A. Silva,Global Learning House,art,ART-254,09/01/2022,23/01/2022,16/01/2022,No,No,On time,0,0
+899,staff,6,Principles of Design,Emily Hart,Northern Books,art,ART-895,23/03/2022,13/04/2022,07/04/2022,No,Yes,Overdue,3,60
+900,faculty,10,Learning to Research,Maria Stone,Northern Books,non-fiction,NF-663,30/09/2023,30/10/2023,13/10/2023,Yes,Yes,Overdue,16,320
+901,staff,4,Digital Society,Kevin Brown,Northern Books,non-fiction,NF-966,27/05/2021,17/06/2021,09/06/2021,No,Yes,Overdue,1,20
+902,faculty,4,Digital Society,Kevin Brown,EduWorld Press,non-fiction,NF-291,06/10/2020,05/11/2020,09/10/2020,Yes,No,On time,0,0
+903,faculty,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-782,02/03/2024,01/04/2024,14/03/2024,No,Yes,Overdue,10,200
+904,staff,2,Creative Drawing,Nisha Raj,Global Learning House,art,ART-902,07/04/2022,28/04/2022,19/04/2022,No,Yes,Overdue,14,280
+905,staff,5,The Last Letter,Meera Collins,Pearl Academic Press,fiction,FIC-512,22/07/2021,12/08/2021,27/07/2021,Yes,No,On time,0,0
+906,student,4,Digital Society,Kevin Brown,Global Learning House,non-fiction,NF-991,03/10/2023,17/10/2023,17/10/2023,Yes,Yes,Overdue,18,360
+907,staff,15,Introduction to Physics,Dr. Alan Reed,Global Learning House,science,SCI-370,21/12/2020,11/01/2021,09/01/2021,No,Yes,Overdue,1,20
+908,staff,20,Modern Art Guide,Laura King,Pearl Academic Press,art,ART-328,11/02/2020,03/03/2020,20/02/2020,Yes,Yes,Overdue,3,60
+909,student,7,Earth and Space Science,L. Anderson,Campus Publications,science,SCI-638,08/11/2020,22/11/2020,25/11/2020,Yes,Yes,Overdue,3,60
+910,faculty,14,The Silent River,Anita Rao,Northern Books,fiction,FIC-165,09/02/2025,11/03/2025,27/02/2025,Yes,Yes,Overdue,5,100
+911,staff,16,World History Overview,James Carter,EduWorld Press,history,HIS-105,18/04/2022,09/05/2022,24/04/2022,No,No,On time,0,0
+912,faculty,18,Computer Science Fundamentals,M. Kumar,EduWorld Press,science,SCI-189,19/07/2023,18/08/2023,06/08/2023,No,Yes,Overdue,15,300
+913,student,22,Cultural Heritage,Latha Raman,EduWorld Press,history,HIS-594,22/12/2022,05/01/2023,28/12/2022,Yes,No,On time,0,0
+914,student,19,Communication Skills,Peter Clarke,Global Learning House,non-fiction,NF-414,26/07/2021,09/08/2021,30/07/2021,Yes,No,On time,0,0
+915,staff,13,Midnight Pages,R. K. Fernando,Global Learning House,fiction,FIC-556,25/04/2024,16/05/2024,07/05/2024,No,Yes,Overdue,1,20
+916,student,9,Ancient Civilizations,Priya Menon,Global Learning House,history,HIS-766,29/05/2023,12/06/2023,02/06/2023,Yes,No,On time,0,0
+917,student,13,Midnight Pages,R. K. Fernando,Pearl Academic Press,fiction,FIC-481,24/04/2024,08/05/2024,26/04/2024,No,No,On time,0,0
+918,staff,4,Digital Society,Kevin Brown,Global Learning House,non-fiction,NF-926,14/10/2023,04/11/2023,28/10/2023,Yes,Yes,Overdue,8,160
+919,faculty,5,The Last Letter,Meera Collins,Northern Books,fiction,FIC-927,12/10/2023,11/11/2023,28/10/2023,No,Yes,Overdue,11,220
+920,faculty,11,Leadership Basics,A. Jayawardena,Campus Publications,non-fiction,NF-757,18/10/2022,17/11/2022,27/10/2022,Yes,Yes,Overdue,11,220
+921,faculty,24,Color and Composition,A. Silva,Global Learning House,art,ART-224,10/05/2024,09/06/2024,13/05/2024,No,No,On time,0,0
+922,staff,13,Midnight Pages,R. K. Fernando,EduWorld Press,fiction,FIC-766,09/11/2024,30/11/2024,25/11/2024,No,Yes,Overdue,1,20
+923,staff,11,Leadership Basics,A. Jayawardena,EduWorld Press,non-fiction,NF-977,02/11/2021,23/11/2021,11/11/2021,No,Yes,Overdue,9,180
+924,faculty,21,Island Dreams,S. Wijesinghe,Northern Books,fiction,FIC-173,05/03/2020,04/04/2020,09/03/2020,No,No,On time,0,0
+925,student,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-256,05/02/2021,19/02/2021,13/02/2021,No,Yes,Overdue,18,360
+926,student,18,Computer Science Fundamentals,M. Kumar,Global Learning House,science,SCI-189,19/02/2023,05/03/2023,11/03/2023,Yes,Yes,Overdue,6,120
+927,staff,18,Computer Science Fundamentals,M. Kumar,Global Learning House,science,SCI-174,25/11/2022,16/12/2022,03/12/2022,Yes,Yes,Overdue,5,100
+928,faculty,4,Digital Society,Kevin Brown,Northern Books,non-fiction,NF-666,17/06/2023,17/07/2023,05/07/2023,Yes,Yes,Overdue,17,340
+929,faculty,25,Beyond the Gate,N. Perera,Pearl Academic Press,fiction,FIC-229,31/10/2022,30/11/2022,18/11/2022,Yes,Yes,Overdue,10,200
+930,staff,16,World History Overview,James Carter,Northern Books,history,HIS-210,23/12/2022,13/01/2023,06/01/2023,No,Yes,Overdue,16,320
+931,staff,5,The Last Letter,Meera Collins,Campus Publications,fiction,FIC-482,01/05/2021,22/05/2021,15/05/2021,No,Yes,Overdue,16,320
+932,faculty,3,Modern Asia,Robert Adams,Global Learning House,history,HIS-258,15/06/2023,15/07/2023,02/07/2023,No,Yes,Overdue,20,400
+933,staff,2,Creative Drawing,Nisha Raj,EduWorld Press,art,ART-132,25/04/2021,16/05/2021,27/04/2021,Yes,No,On time,0,0
+934,staff,2,Creative Drawing,Nisha Raj,Pearl Academic Press,art,ART-102,29/01/2024,19/02/2024,13/02/2024,Yes,Yes,Overdue,9,180
+935,faculty,17,Chemistry in Daily Life,Prof. David Lee,Global Learning House,science,SCI-112,01/11/2024,01/12/2024,03/11/2024,Yes,No,On time,0,0
+936,staff,4,Digital Society,Kevin Brown,Pearl Academic Press,non-fiction,NF-731,08/08/2024,29/08/2024,20/08/2024,No,Yes,Overdue,12,240
+937,student,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-582,31/03/2025,14/04/2025,09/04/2025,Yes,Yes,Overdue,12,240
+938,staff,2,Creative Drawing,Nisha Raj,EduWorld Press,art,ART-372,23/08/2020,13/09/2020,24/08/2020,No,No,On time,0,0
+939,faculty,19,Communication Skills,Peter Clarke,Global Learning House,non-fiction,NF-819,19/09/2024,19/10/2024,24/09/2024,Yes,No,On time,0,0
+940,staff,22,Cultural Heritage,Latha Raman,Northern Books,history,HIS-569,31/05/2023,21/06/2023,04/06/2023,Yes,No,On time,0,0
+941,staff,2,Creative Drawing,Nisha Raj,Pearl Academic Press,art,ART-997,31/10/2021,21/11/2021,03/11/2021,Yes,No,On time,0,0
+942,faculty,2,Creative Drawing,Nisha Raj,Global Learning House,art,ART-622,28/05/2020,27/06/2020,04/06/2020,No,No,On time,0,0
+943,faculty,15,Introduction to Physics,Dr. Alan Reed,EduWorld Press,science,SCI-905,03/10/2023,02/11/2023,10/10/2023,Yes,No,On time,0,0
+944,faculty,23,History of Sri Lanka,D. Senanayake,Northern Books,history,HIS-887,16/05/2020,15/06/2020,21/05/2020,No,No,On time,0,0
+945,faculty,2,Creative Drawing,Nisha Raj,Pearl Academic Press,art,ART-107,20/07/2024,19/08/2024,01/08/2024,Yes,Yes,Overdue,1,20
+946,faculty,14,The Silent River,Anita Rao,Global Learning House,fiction,FIC-170,25/07/2024,24/08/2024,29/07/2024,No,No,On time,0,0
+947,staff,24,Color and Composition,A. Silva,Northern Books,art,ART-589,22/09/2020,13/10/2020,29/09/2020,Yes,No,On time,0,0
+948,faculty,8,Basics of Biology,Sarah Green,EduWorld Press,science,SCI-826,14/01/2020,13/02/2020,28/01/2020,Yes,Yes,Overdue,16,320
+949,staff,1,Effective Study Skills,Dr. Helen Morris,EduWorld Press,non-fiction,NF-765,14/01/2022,04/02/2022,21/01/2022,No,No,On time,0,0
+950,student,9,Ancient Civilizations,Priya Menon,Pearl Academic Press,history,HIS-746,29/01/2021,12/02/2021,02/02/2021,No,No,On time,0,0
+951,student,19,Communication Skills,Peter Clarke,Global Learning House,non-fiction,NF-964,07/02/2022,21/02/2022,12/02/2022,Yes,No,On time,0,0
+952,student,6,Principles of Design,Emily Hart,Northern Books,art,ART-450,03/09/2022,17/09/2022,06/09/2022,Yes,No,On time,0,0
+953,faculty,15,Introduction to Physics,Dr. Alan Reed,EduWorld Press,science,SCI-210,11/12/2023,10/01/2024,30/12/2023,Yes,Yes,Overdue,8,160
+954,student,12,Art Through Time,Victor Silva,Northern Books,art,ART-266,25/03/2020,08/04/2020,30/03/2020,No,No,On time,0,0
+955,faculty,7,Earth and Space Science,L. Anderson,EduWorld Press,science,SCI-533,19/09/2023,19/10/2023,08/10/2023,Yes,Yes,Overdue,2,40
+956,student,13,Midnight Pages,R. K. Fernando,Northern Books,fiction,FIC-591,18/04/2024,02/05/2024,24/04/2024,Yes,No,On time,0,0
+957,staff,12,Art Through Time,Victor Silva,Campus Publications,art,ART-771,21/03/2025,11/04/2025,30/03/2025,No,Yes,Overdue,7,140
+958,student,18,Computer Science Fundamentals,M. Kumar,Pearl Academic Press,science,SCI-939,09/06/2020,23/06/2020,15/06/2020,No,No,On time,0,0
+959,faculty,16,World History Overview,James Carter,Pearl Academic Press,history,HIS-805,01/05/2020,31/05/2020,06/05/2020,Yes,No,On time,0,0
+960,staff,8,Basics of Biology,Sarah Green,Northern Books,science,SCI-281,22/01/2020,12/02/2020,02/02/2020,Yes,Yes,Overdue,10,200
+961,staff,16,World History Overview,James Carter,Pearl Academic Press,history,HIS-125,12/11/2022,03/12/2022,27/11/2022,Yes,Yes,Overdue,7,140
+962,faculty,4,Digital Society,Kevin Brown,EduWorld Press,non-fiction,NF-846,31/10/2023,30/11/2023,12/11/2023,Yes,Yes,Overdue,11,220
+963,faculty,1,Effective Study Skills,Dr. Helen Morris,Campus Publications,non-fiction,NF-685,29/04/2024,29/05/2024,07/05/2024,No,Yes,Overdue,1,20
+964,student,25,Beyond the Gate,N. Perera,Northern Books,fiction,FIC-179,05/01/2021,19/01/2021,24/01/2021,No,Yes,Overdue,5,100
+965,faculty,18,Computer Science Fundamentals,M. Kumar,Pearl Academic Press,science,SCI-569,24/10/2022,23/11/2022,08/11/2022,Yes,Yes,Overdue,19,380
+966,faculty,17,Chemistry in Daily Life,Prof. David Lee,Pearl Academic Press,science,SCI-432,23/07/2020,22/08/2020,01/08/2020,Yes,Yes,Overdue,3,60
+967,staff,24,Color and Composition,A. Silva,Campus Publications,art,ART-389,01/06/2022,22/06/2022,13/06/2022,No,Yes,Overdue,16,320
+968,staff,15,Introduction to Physics,Dr. Alan Reed,Campus Publications,science,SCI-840,05/01/2025,26/01/2025,15/01/2025,Yes,Yes,Overdue,10,200
+969,staff,23,History of Sri Lanka,D. Senanayake,Pearl Academic Press,history,HIS-687,01/04/2020,22/04/2020,02/04/2020,No,No,On time,0,0
+970,faculty,1,Effective Study Skills,Dr. Helen Morris,EduWorld Press,non-fiction,NF-895,15/03/2022,14/04/2022,18/03/2022,Yes,No,On time,0,0
+971,staff,10,Learning to Research,Maria Stone,Pearl Academic Press,non-fiction,NF-603,11/09/2023,02/10/2023,16/09/2023,Yes,No,On time,0,0
+972,faculty,25,Beyond the Gate,N. Perera,Northern Books,fiction,FIC-454,29/05/2023,28/06/2023,05/06/2023,No,No,On time,0,0
+973,student,15,Introduction to Physics,Dr. Alan Reed,EduWorld Press,science,SCI-800,04/05/2023,18/05/2023,18/05/2023,No,Yes,Overdue,14,280
+974,faculty,12,Art Through Time,Victor Silva,Northern Books,art,ART-191,06/03/2025,05/04/2025,13/03/2025,No,No,On time,0,0
+975,faculty,5,The Last Letter,Meera Collins,Global Learning House,fiction,FIC-272,24/07/2023,23/08/2023,31/07/2023,Yes,No,On time,0,0
+976,student,12,Art Through Time,Victor Silva,Global Learning House,art,ART-451,12/01/2021,26/01/2021,19/01/2021,Yes,No,On time,0,0
+977,faculty,8,Basics of Biology,Sarah Green,Campus Publications,science,SCI-241,28/05/2024,27/06/2024,11/06/2024,Yes,Yes,Overdue,2,40
+978,student,23,History of Sri Lanka,D. Senanayake,Pearl Academic Press,history,HIS-107,04/08/2022,18/08/2022,14/08/2022,Yes,Yes,Overdue,18,360
+979,staff,11,Leadership Basics,A. Jayawardena,Northern Books,non-fiction,NF-247,09/02/2024,01/03/2024,15/02/2024,Yes,No,On time,0,0
+980,student,19,Communication Skills,Peter Clarke,Global Learning House,non-fiction,NF-464,16/01/2025,30/01/2025,26/01/2025,No,Yes,Overdue,20,400
+981,faculty,17,Chemistry in Daily Life,Prof. David Lee,Global Learning House,science,SCI-252,23/12/2024,22/01/2025,12/01/2025,No,Yes,Overdue,11,220
+982,student,18,Computer Science Fundamentals,M. Kumar,Campus Publications,science,SCI-214,08/11/2021,22/11/2021,22/11/2021,Yes,Yes,Overdue,7,140
+983,staff,12,Art Through Time,Victor Silva,Northern Books,art,ART-906,12/10/2023,02/11/2023,31/10/2023,No,Yes,Overdue,7,140
+984,student,14,The Silent River,Anita Rao,EduWorld Press,fiction,FIC-440,23/04/2021,07/05/2021,01/05/2021,Yes,Yes,Overdue,9,180
+985,faculty,22,Cultural Heritage,Latha Raman,EduWorld Press,history,HIS-709,26/01/2022,25/02/2022,31/01/2022,Yes,No,On time,0,0
+986,student,13,Midnight Pages,R. K. Fernando,Campus Publications,fiction,FIC-721,12/05/2020,26/05/2020,28/05/2020,No,Yes,Overdue,2,40
+987,student,25,Beyond the Gate,N. Perera,Global Learning House,fiction,FIC-149,26/11/2024,10/12/2024,12/12/2024,No,Yes,Overdue,2,40
+988,staff,10,Learning to Research,Maria Stone,Campus Publications,non-fiction,NF-248,06/01/2025,27/01/2025,13/01/2025,Yes,No,On time,0,0
+989,staff,22,Cultural Heritage,Latha Raman,Global Learning House,history,HIS-464,28/02/2021,21/03/2021,04/03/2021,Yes,No,On time,0,0
+990,staff,16,World History Overview,James Carter,Campus Publications,history,HIS-130,03/09/2022,24/09/2022,14/09/2022,No,Yes,Overdue,2,40
+991,faculty,22,Cultural Heritage,Latha Raman,Campus Publications,history,HIS-184,29/11/2024,29/12/2024,09/12/2024,No,Yes,Overdue,13,260
+992,faculty,19,Communication Skills,Peter Clarke,Global Learning House,non-fiction,NF-989,15/10/2021,14/11/2021,26/10/2021,No,Yes,Overdue,16,320
+993,staff,4,Digital Society,Kevin Brown,Northern Books,non-fiction,NF-981,04/03/2021,25/03/2021,15/03/2021,No,Yes,Overdue,9,180
+994,student,2,Creative Drawing,Nisha Raj,EduWorld Press,art,ART-467,11/05/2023,25/05/2023,29/05/2023,Yes,Yes,Overdue,4,80
+995,faculty,24,Color and Composition,A. Silva,Campus Publications,art,ART-949,18/06/2022,18/07/2022,25/06/2022,Yes,No,On time,0,0
+996,student,11,Leadership Basics,A. Jayawardena,EduWorld Press,non-fiction,NF-227,18/08/2023,01/09/2023,26/08/2023,Yes,Yes,Overdue,16,320
+997,student,13,Midnight Pages,R. K. Fernando,Northern Books,fiction,FIC-781,06/03/2025,20/03/2025,15/03/2025,Yes,Yes,Overdue,15,300
+998,staff,13,Midnight Pages,R. K. Fernando,Campus Publications,fiction,FIC-486,17/09/2024,08/10/2024,27/09/2024,No,Yes,Overdue,7,140
+999,student,11,Leadership Basics,A. Jayawardena,Pearl Academic Press,non-fiction,NF-772,04/04/2021,18/04/2021,06/04/2021,No,No,On time,0,0
+1000,faculty,19,Communication Skills,Peter Clarke,EduWorld Press,non-fiction,NF-239,17/07/2020,16/08/2020,18/07/2020,No,No,On time,0,0
+,,26,,,,,,,,,,,,,
+,,26,,,,,,,,,,,,,
